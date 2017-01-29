@@ -1,3 +1,5 @@
+/* eslint-disable no-unused-vars */
+
 import React from 'react';
 import styles from './page.css';
 
@@ -14,6 +16,8 @@ const Day = ({day, date, children}) => (
     </div>
 );
 
+// There are the hours in the day. This serves as the domain for the y-position
+// of the events.
 const dMin = 8;
 const dMax = 22;
 
@@ -45,7 +49,7 @@ const DRange = ({t0, t1, label}) => (
 
 export default () => (
     <div className={styles.container}>
-        <h1 className={styles.h1}>Schedule</h1>
+        <h1>Schedule</h1>
 
         <p>
             This schedule is temporary. Only the start and end are more or less given.
@@ -54,8 +58,8 @@ export default () => (
 
         <section className={styles.schedule}>
             <div className={styles.scheduleLabel}>
-                <span>9am</span>
-                <span>22pm</span>
+                <span>{fmtTime(dMin)}</span>
+                <span>{fmtTime(dMax)}</span>
             </div>
 
             <Day day='Friday' date='June 9'>

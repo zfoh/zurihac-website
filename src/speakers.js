@@ -30,7 +30,7 @@ const Speaker = ({img, title, author, github, twitter, children}) => (
 
 export default () => (
     <div className={styles.talks}>
-        <h1 className={styles.h1}>Speakers</h1>
+        <h1>Speakers</h1>
 
         <div className={styles.container}>
             <p>

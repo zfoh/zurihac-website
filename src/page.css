@@ -2,7 +2,7 @@
     box-sizing: inherit
 }
 
-body{
+body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -17,53 +17,7 @@ h1, h2, h3, h4 {
     color: #404040;
 }
 
-p {
-    text-align: justify;
-    hyphens: auto;
-    padding-top: 1.6250em;
-    line-height: 1.6250em;
-    margin: 0;
-}
-
-a {
-    color: #183d31;
-    font-weight: 600;
-}
-a:hover {
-    color: black;
-}
-
-svg {
-    display: block;
-}
-
-:global(.marker) {
-    width: 32px;
-    height: 32px;
-}
-
-
-.clearfix {
-  &:after {
-    content: "";
-    display: block;
-    clear: both;
-  }
-}
-
-.container {
-  margin: 0 auto;
-  padding: 0 5%;
-
-  @media (min-width: 620px) {
-    max-width: 688px;
-  }
-  @media (min-width: 800px) {
-    max-width: 864px;
-  }
-}
-
-.h1 {
+h1 {
   margin: 3.5em auto 0;
   text-align: center;
   font-size: 26px;
@@ -76,7 +30,7 @@ svg {
   }
 }
 
-.h2 {
+h2 {
   margin: 3.5em auto .1em;
   text-align: center;
   font-size: 22px;
@@ -86,6 +40,46 @@ svg {
   }
   @media (min-width: 1280px) {
     font-size: 30px;
+  }
+}
+
+
+p {
+    text-align: justify;
+    hyphens: auto;
+    padding-top: 1.6250em;
+    line-height: 1.6250em;
+    margin: 0;
+}
+
+a {
+    color: #183d31;
+    font-weight: 600;
+
+    &:hover {
+        color: black;
+    }
+}
+
+svg {
+    display: block;
+}
+
+/* This is the marker inside the map */
+:global(.marker) {
+    width: 32px;
+    height: 32px;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 5%;
+
+  @media (min-width: 620px) {
+    max-width: 688px;
+  }
+  @media (min-width: 800px) {
+    max-width: 864px;
   }
 }
 
@@ -120,35 +114,6 @@ svg {
   }
 }
 
-.whenWhere {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  padding: 1em 1em 2.2em;
-  margin: 0 auto;
-  font-size: 14px;
-  line-height: 16px;
-  color: white;
-  font-weight: 500;
-  text-align: center;
-
-  @media (min-width: 840px) {
-      padding: 1.3em 0 2.8em;
-      font-size: 20px;
-      line-height: 22px;
-  }
-  @media (min-width: 1280px) {
-      padding: 1.3em 0 2em;
-      font-size: 24px;
-      line-height: 28px;
-  }
-}
-
-.whenWhereVenue {
-  margin-top: .4em;
-}
-
 .footer {
   background-color: #f9f9f9;
   color: #999999;
@@ -167,49 +132,6 @@ svg {
 .footerContactLink {
   color: currentColor;
   text-decoration: none;
-}
-
-
-@media (min-width: 600px) {
-  .outerL {
-    float: left;
-    width: 50%;
-  }
-}
-.innerL {
-  margin: 0 auto;
-  max-width: 600px;
-  padding: 0 16px;
-
-  @media (min-width: 600px) {
-    margin: 0 0 0 auto;
-    padding: 0 12px 0 16px;
-  }
-
-  @media (min-width: 840px) {
-    padding: 0 20px 0 32px;
-  }
-}
-
-@media (min-width: 600px) {
-  .outerR {
-    float: right;
-    width: 50%;
-  }
-}
-.innerR {
-  margin: 0 auto;
-  max-width: 600px;
-  padding: 0 16px;
-
-  @media (min-width: 600px) {
-    margin: 0 auto 0 0;
-    padding: 0 16px 0 12px;
-  }
-
-  @media (min-width: 840px) {
-    padding: 0 32px 0 20px;
-  }
 }
 
 
@@ -389,6 +311,7 @@ svg {
 .projectTitle {
   font-size: 20px;
   margin: 0;
+  text-align: left;
 
   @media (min-width: 840px) {
     font-size: 26px;

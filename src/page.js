@@ -8,7 +8,7 @@ export default () => (
     <div>
         <Header />
         <About />
-        <Sponsors />
+        {false && <Sponsors />}
         <Speakers />
         <Schedule />
         <Projects />

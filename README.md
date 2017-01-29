@@ -57,5 +57,6 @@ required assets. They are copied into a Google Cloud bucket and served
 from there.
 
     $ yarn run build
-    $ gsutil -m rsync -dr -x '.*site.js.*' -x '.*index.html' build/ gs://zurihac.info/
+    $ gsutil -m rsync -dr -x '.*site.*' -x '.*index.html' build/ gs://zurihac.info/
+    $ gsutil -m -h 'Cache-Control: no-cache' cp build/static/site.css{,.map} gs://zurihac.info/static/
     $ gsutil -m -h 'Cache-Control: no-cache' cp build/index.html gs://zurihac.info/index.html

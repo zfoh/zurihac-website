@@ -5,14 +5,14 @@ import {starIcon, starBorderIcon} from './icons.js';
 
 
 const projects = [
-    { title: 'Hadrian'
-    , contact: 'Andrey Mokhov'
-    , skillLevel: 'advanced'
-    , homepage: 'https://github.com/snowleopard/hadrian'
-    , children: (
-        'Hadrian is a new build system for the Glasgow Haskell Compiler. It is based on the Shake library and we hope that it will eventually replace the current make-based build system. You can find more details about the motivation behind this project and our implementation approach in this document.'
-      )
-    },
+    // { title: 'Hadrian'
+    // , contact: 'Andrey Mokhov'
+    // , skillLevel: 'advanced'
+    // , homepage: 'https://github.com/snowleopard/hadrian'
+    // , children: (
+    //     'Hadrian is a new build system for the Glasgow Haskell Compiler. It is based on the Shake library and we hope that it will eventually replace the current make-based build system. You can find more details about the motivation behind this project and our implementation approach in this document.'
+    //   )
+    // },
     { title: 'Hakyll'
     , contact: 'Jasper Van der Jeugt'
     , skillLevel: 'beginner'
@@ -65,7 +65,7 @@ const Project = ({title, contact, skillLevel, skillLevelTo, homepage, children})
 
 export default () => (
     <div className={styles.projects}>
-        <h1 className={styles.h1}>Workshops</h1>
+        <h1>Workshops</h1>
 
         <div className={styles.container}>
             <p>

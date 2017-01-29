@@ -12,7 +12,7 @@ export const Header = () => (
 
 export const About = () => (
     <div className={styles.container}>
-        <h1 className={styles.h1}>About</h1>
+        <h1>About</h1>
         <p>
             Beginning of June 2016, the <a href='https://www.meetup.com/HaskellerZ/'>Zurich Haskell Meetup Group</a> will organize ZuriHac 2017,
             a three day <a href='https://www.haskell.org/'>Haskell</a> Hackathon hosted at
@@ -56,7 +56,7 @@ export const Footer = () => (
 
 export const Accomodation = () => (
     <div className={styles.container}>
-        <h1 className={styles.h1}>Accomodation</h1>
+        <h1>Accomodation</h1>
         <p>
             We recommend the following accommodation options.
         </p>
@@ -69,7 +69,7 @@ export const Accomodation = () => (
 
 export const Sponsors = () => (
     <div>
-        <h2 className={styles.h2}>In partnership with</h2>
+        <h2>In partnership with</h2>
         <div className={styles.sponsors}>
             <img className={'lazyload ' + styles.sponsor} alt="HSR Logo" data-src={require('../static/hsr.jpg')} />
             <img className={'lazyload ' + styles.sponsor} alt="Digital Asset Logo" data-src={require('../static/digital-asset.png')} />
@@ -81,7 +81,7 @@ export const Sponsors = () => (
 
 export const Contact = () => (
     <div className={styles.container}>
-        <h1 className={styles.h1}>Contact</h1>
+        <h1>Contact</h1>
         <p>
             If you have any questions before the event, please reach out
             to <a href='mailto:iridcode@gmail.com'>Simon Meier</a>.
@@ -118,7 +118,7 @@ export const Registration = () => (
 
 export const Venue = () => (
     <div className={styles.container}>
-        <h1 className={styles.h1}>Venue</h1>
+        <h1>Venue</h1>
         <section>
             <p>
                 This year the hackathon takes place at the <a href='https://www.hsr.ch'>HSR Hochschule für Technik Rapperswil</a>.
@@ -136,7 +136,7 @@ export const Venue = () => (
                 8640 Rapperswil-Jona
             </div>
 
-            <h2 className={styles.h2}>Getting there</h2>
+            <h2>Getting there</h2>
 
             <p>
                 You can take the S7 or S15 to get from the Zurich main station to Rapperswil.
