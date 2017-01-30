@@ -72,7 +72,7 @@ export const Sponsors = () => (
         <h2>In partnership with</h2>
         <div className={styles.sponsors}>
             <img className={'lazyload ' + styles.sponsor} alt="HSR Logo" data-src={require('../static/hsr.jpg')} />
-            <img className={'lazyload ' + styles.sponsor} alt="Digital Asset Logo" data-src={require('../static/digital-asset.png')} />
+            <img className={'lazyload ' + styles.sponsor} alt="Digital Asset Logo" data-src={require('../static/digitalasset-big-blue.png')} />
             <img className={'lazyload ' + styles.sponsor} alt="Google Logo" data-src={require('../static/google.png')} />
         </div>
     </div>
