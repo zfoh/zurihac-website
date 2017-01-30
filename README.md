@@ -2,10 +2,8 @@
 
 Live on https://zurihac.info
 
-You need nodejs and yarn to run the website locally. If you have nix you can try
-to use the `default.nix` file (somebody please confirm that the file works, I have
-not tested it).
-
+You need nodejs and yarn to run the website locally. If you have nix installed
+you can use `nix-shell` to switch into a shell with `yarn` available. 
 To start the server locally, use:
 
     $ yarn install
