@@ -14,20 +14,24 @@ export const About = () => (
     <div className={styles.container}>
         <h1>About</h1>
         <p>
-            Beginning of June 2016, the <a href='https://www.meetup.com/HaskellerZ/'>Zurich Haskell Meetup Group</a> will organize ZuriHac 2017,
+            Beginning of June 2017, the <a href='https://www.meetup.com/HaskellerZ/'>Zurich Haskell Meetup Group</a> will organize ZuriHac 2017,
             a three day <a href='https://www.haskell.org/'>Haskell</a> Hackathon hosted at
             the <a href='https://www.hsr.ch'>HSR Hochschule für Technik Rapperswil</a>. This
-            is the sixth Haskell Hackathon organized by the Zurich Haskell Meetup Group,
-            and the first one which is hosted at the HSR.
+            is the sixth Haskell Hackathon organized by the Zurich Haskell Meetup Group
+            and the first one which is hosted at the HSR. A fantastic venue
+            located right at lake Zurich and providing space for 300 participants.
         </p>
 
         <p>
-            The Haskell Hackathon is an international, grassroots collaborative coding festival with
-            a simple focus: build and improve Haskell libraries, tools, and infrastructure.
+            The Haskell Hackathon is an international, grassroots collaborative coding festival
+            whose goal is to expand the community
+            and
+            to build and improve Haskell libraries, tools, and infrastructure.
         </p>
 
         <p>
-            This is a great opportunity to meet your fellow Haskellers in real life,
+            This is a great opportunity to learn more about Haskell,
+            meet fellow Haskellers in real life,
             find new contributors for your project, improve existing libraries and
             tools or even start new ones!
         </p>
@@ -38,7 +42,7 @@ export const About = () => (
             experts so that the former can get a quick start in the Haskell
             community. We will have a dedicated beginners' track, and there are
             going to be mentors on site whom you can directly approach during the
-            whole event with any Haskell-related question that might pop up.
+            whole event with any Haskell-related question you have.
         </p>
     </div>
 );
@@ -66,14 +70,21 @@ export const Accomodation = () => (
     </div>
 );
 
-
+// TODO (SM): @TC could you vertically center the sponsors? They look a bit
+// unaligned.
 export const Sponsors = () => (
     <div>
-        <h2>In partnership with</h2>
+        <h2>Supported by</h2>
         <div className={styles.sponsors}>
-            <img className={'lazyload ' + styles.sponsor} alt="HSR Logo" data-src={require('../static/hsr.jpg')} />
-            <img className={'lazyload ' + styles.sponsor} alt="Digital Asset Logo" data-src={require('../static/digitalasset-big-blue.png')} />
-            <img className={'lazyload ' + styles.sponsor} alt="Google Logo" data-src={require('../static/google.png')} />
+            <a href="https://www.hsr.ch" target="_blank">
+              <img className={'lazyload ' + styles.sponsor} alt="HSR Logo" data-src={require('../static/hsr.jpg')} />
+            </a>
+            <a href="https://digitalasset.com/careers.html" target="_blank">
+              <img className={'lazyload ' + styles.sponsor} alt="Digital Asset Logo" data-src={require('../static/digitalasset-big-blue.png')} />
+            </a>
+            <a href="https://careers.google.com/locations/zurich/" target="_blank">
+              <img className={'lazyload ' + styles.sponsor} alt="Google Logo" data-src={require('../static/google.png')} />
+            </a>
         </div>
     </div>
 );
@@ -84,7 +95,7 @@ export const Contact = () => (
         <h1>Contact</h1>
         <p>
             If you have any questions before the event, please reach out
-            to <a href='mailto:iridcode@gmail.com'>Simon Meier</a>.
+            to <a href='mailto:iridcode+zurihac@gmail.com'>Simon Meier</a>.
         </p>
         <p>
             Before the event, and in particular during the event, you can
