@@ -46,6 +46,7 @@ export default () => (
 
             <Speaker author="Stephen Diehl" img={require('../static/stephen-diehl.jpg')} github='sdiehl' twitter='smdiehl'>
                 Software engineer in Boston, Massachusetts.
+                Author of <a href="http://dev.stephendiehl.com/hask/">What I Wish I Knew When Learning Haskell</a>.
             </Speaker>
 
             <Speaker author="Christopher Allen / Julie Moronuki" img={require('../static/julie.jpg')}>
