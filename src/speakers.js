@@ -34,7 +34,8 @@ export default () => (
 
         <section className={styles.talksSection}>
             <Speaker author="Edward Kmett" img={require('../static/ekmett.jpg')} github='ekmett' twitter='kmett'>
-                Prolific Haskell programmer, mathematician, lapsed graphics guru and demo scener, defense contractor and financial toolsmith.
+                Prolific Haskell programmer, mathematician, lapsed graphics guru and demo scener, defense contractor, financial toolsmith,
+                author of the widely-known <a href="https://github.com/ekmett/lens/">lens</a> library.
             </Speaker>
 
             <Speaker author="Stephen Diehl" img={require('../static/stephen-diehl.jpg')} github='sdiehl' twitter='smdiehl'>
@@ -42,14 +43,13 @@ export default () => (
                 Author of <a href="http://dev.stephendiehl.com/hask/">What I Wish I Knew When Learning Haskell</a>.
             </Speaker>
 
-            <Speaker author="Julie Moronuki" img={require('../static/julie.jpg')}>
+            <Speaker author="Julie Moronuki" img={require('../static/julie.jpg')} github='GinBaby' twitter='argumatronic'>
                 Julie Moronuki is one of the authors of the great <a href="http://haskellbook.com/">Haskell programming from first principles book</a>.
             </Speaker>
 
             <Speaker author="Neil Mitchell" img={require('../static/ndmitchell.jpg')} github='ndmitchell' twitter='ndm_haskell'>
                 Professional Haskell programmer working at Barclays Bank.
-                Some of the more famous projects he helped create are Shake,
-                Hoogle, and Hlint.
+                Some of the more famous projects he created are <a href="http://shakebuild.com/">Shake</a>, <a href="https://www.haskell.org/hoogle/">Hoogle</a>, and <a href="https://hackage.haskell.org/package/hlint">Hlint</a>.
             </Speaker>
         </section>
     </div>
