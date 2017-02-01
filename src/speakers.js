@@ -40,11 +40,11 @@ export default () => (
 
             <Speaker author="Stephen Diehl" img={require('../static/stephen-diehl.jpg')} github='sdiehl' twitter='smdiehl'>
                 Software engineer in Boston, Massachusetts.
-                Author of <a href="http://dev.stephendiehl.com/hask/">What I Wish I Knew When Learning Haskell</a>.
+                Author of the amazing <a href="http://dev.stephendiehl.com/hask/">What I Wish I Knew When Learning Haskell</a>.
             </Speaker>
 
             <Speaker author="Julie Moronuki" img={require('../static/julie.jpg')} github='GinBaby' twitter='argumatronic'>
-                Julie Moronuki is one of the authors of the great <a href="http://haskellbook.com/">Haskell programming from first principles book</a>.
+                Julie Moronuki is one of the authors of the great <a href="http://haskellbook.com/">Haskell programming from first principles</a> book.
             </Speaker>
 
             <Speaker author="Neil Mitchell" img={require('../static/ndmitchell.jpg')} github='ndmitchell' twitter='ndm_haskell'>
