@@ -57,19 +57,6 @@ export const Footer = () => (
     </footer>
 );
 
-
-export const Accomodation = () => (
-    <div className={styles.container}>
-        <h1>Accomodation</h1>
-        <p>
-            We recommend the following accommodation options.
-        </p>
-        <p>
-            <a target='_blank' href='https://www.google.com/maps/d/u/0/viewer?mid=1OmDEXl-VKylIyv2Or-yH0nqah38'>Open map in a new window</a>
-        </p>
-    </div>
-);
-
 // TODO (SM): @TC could you vertically center the sponsors? They look a bit
 // unaligned.
 export const Sponsors = () => (
@@ -95,7 +82,7 @@ export const Contact = () => (
         <h1>Contact</h1>
         <p>
             If you have any questions before the event, please reach out
-            to <a href='mailto:iridcode+zurihac@gmail.com'>Simon Meier</a>.
+            to <a href='mailto:m@jaspervdj.be'>Jasper Van der Jeugt</a> or <a href='mailto:iridcode+zurihac@gmail.com'>Simon Meier</a>.
         </p>
         <p>
             Before the event, and in particular during the event, you can
@@ -147,6 +134,7 @@ export const Venue = () => (
                 8640 Rapperswil-Jona
             </div>
 
+
             <h2>Getting there</h2>
 
             <p>
@@ -166,6 +154,12 @@ export const Venue = () => (
                 the day pass 34.40CHF. If you want to stay closer to the venue and save on transportation, please
                 see the section further below with accomodation suggestions around Rapperswil.
             </p>
+
+            <h2>Getting around</h2>
+
+            See <a target='_blank' href='https://www.google.com/maps/d/u/0/viewer?mid=1OmDEXl-VKylIyv2Or-yH0nqah38'>this map</a> for
+            more information on accomodation, grocery stores, and other useful places.
+
         </section>
     </div>
 );

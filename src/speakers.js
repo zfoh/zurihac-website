@@ -32,16 +32,9 @@ export default () => (
     <div className={styles.talks}>
         <h1>Speakers</h1>
 
-        <div className={styles.container}>
-            <p>
-                We have a few more slots available for talks. If you want to give one, please
-                mention that in the registration form.
-            </p>
-        </div>
-
         <section className={styles.talksSection}>
             <Speaker author="Edward Kmett" img={require('../static/ekmett.jpg')} github='ekmett' twitter='kmett'>
-                Haskell programmer, mathematician, lapsed graphics guru and demo scener, defense contractor and financial toolsmith.
+                Prolific Haskell programmer, mathematician, lapsed graphics guru and demo scener, defense contractor and financial toolsmith.
             </Speaker>
 
             <Speaker author="Stephen Diehl" img={require('../static/stephen-diehl.jpg')} github='sdiehl' twitter='smdiehl'>
@@ -49,13 +42,14 @@ export default () => (
                 Author of <a href="http://dev.stephendiehl.com/hask/">What I Wish I Knew When Learning Haskell</a>.
             </Speaker>
 
-            <Speaker author="Christopher Allen / Julie Moronuki" img={require('../static/julie.jpg')}>
-                Christopher Allen and Julie Moronuki are both authors of the <a href="http://haskellbook.com/">Haskell programming from first principles book</a>.
+            <Speaker author="Julie Moronuki" img={require('../static/julie.jpg')}>
+                Julie Moronuki is one of the authors of the great <a href="http://haskellbook.com/">Haskell programming from first principles book</a>.
             </Speaker>
 
             <Speaker author="Neil Mitchell" img={require('../static/ndmitchell.jpg')} github='ndmitchell' twitter='ndm_haskell'>
-                Haskell programmer who lives in Cambridge. Some of the more famous projects he helped
-                create are Shake, Hoogle, and Hlint.
+                Professional Haskell programmer working at Barclays Bank.
+                Some of the more famous projects he helped create are Shake,
+                Hoogle, and Hlint.
             </Speaker>
         </section>
     </div>

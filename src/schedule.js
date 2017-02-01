@@ -51,11 +51,6 @@ export default () => (
     <div className={styles.container}>
         <h1>Schedule</h1>
 
-        <p>
-            This schedule is temporary. Only the start and end are more or less given.
-            The exact schedule will be announced as we'll get closer to the Hackathon.
-        </p>
-
         <section className={styles.schedule}>
             <div className={styles.scheduleLabel}>
                 <span>{fmtTime(dMin)}</span>
@@ -73,5 +68,11 @@ export default () => (
                 <DPoint t={16} label='Project Presentation & Closing' />
             </Day>
         </section>
+
+        <p>
+            This schedule is provisional.
+            More details will be given prior to the start of the event.
+        </p>
+
     </div>
 );
