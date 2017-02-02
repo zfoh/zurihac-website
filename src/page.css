@@ -18,15 +18,17 @@ h1, h2, h3, h4 {
 }
 
 h1 {
-  margin: 3.5em auto 0;
   text-align: center;
   font-size: 26px;
+  margin: 1.5em auto 0;
 
   @media (min-width: 840px) {
     font-size: 30px;
+    margin: 2.5em auto 0;
   }
   @media (min-width: 1280px) {
     font-size: 36px;
+    margin: 3.5em auto 0;
   }
 }
 
@@ -265,6 +267,18 @@ svg {
     flex-direction: row;
     width: calc(50% - 2px);
     margin: 0 0 2px 2px;
+  }
+}
+.venueBannerImage {
+  display: block;
+  width: 111%;
+  margin: 0 -5.5%;
+  min-height: 160px;
+  object-fit: cover;
+
+  @media (min-width: 620px) {
+    width: 100%;
+    margin: 0;
   }
 }
 

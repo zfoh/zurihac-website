@@ -120,51 +120,54 @@ export const Venue = () => (
     <div className={styles.container}>
         <a id='venue' />
         <h1>Venue</h1>
-        <section>
-            <p>
-                This year the hackathon takes place at the <a href='https://www.hsr.ch'>HSR Hochschule für Technik Rapperswil</a>.
-                The <a href='https://www.google.ch/maps/place/HSR+Hochschule+f%C3%BCr+Technik+Rapperswil/@47.2233188,8.8150867,17z/data=!3m1!4b1!4m5!3m4!1s0x479ab6e12facc7ad:0x711fa65bf58f9c0f!8m2!3d47.2233188!4d8.8172754?hl=en'>location</a> is about 40 minutes outside of the Zurich city.
-            </p>
 
-            <p>
-                We'll have plenty of space available to us: One large auditorium with enough seats for all the participants,
-                10 separate rooms for up to 28 people each, and a large open space.
-            </p>
+        <p>
+            This year the hackathon takes place at the <a href='https://www.hsr.ch'>HSR Hochschule für Technik Rapperswil</a>.
+            The <a href='https://www.google.ch/maps/place/HSR+Hochschule+f%C3%BCr+Technik+Rapperswil/@47.2233188,8.8150867,17z/data=!3m1!4b1!4m5!3m4!1s0x479ab6e12facc7ad:0x711fa65bf58f9c0f!8m2!3d47.2233188!4d8.8172754?hl=en'>location</a> is about 40 minutes outside of the Zurich city.
+        </p>
 
-            <div className={styles.venueAddress}>
-                HSR Hochschule für Technik Rapperswil<br/>
-                Oberseestrasse 10<br/>
-                8640 Rapperswil-Jona
-            </div>
+        <p>
+            <img className={styles.venueBannerImage} src={require('../static/Header_Campus_01.jpg')} alt='HSR campus' />
+        </p>
+
+        <p>
+            We'll have plenty of space available to us: One large auditorium with enough seats for all the participants,
+            10 separate rooms for up to 28 people each, and a large open space.
+        </p>
+
+        <div className={styles.venueAddress}>
+            HSR Hochschule für Technik Rapperswil<br/>
+            Oberseestrasse 10<br/>
+            8640 Rapperswil-Jona
+        </div>
 
 
-            <h2>Getting there</h2>
+        <h2>Getting there</h2>
 
-            <p>
-                You can take the S7 or S15 to get from the Zurich main station to Rapperswil.
-                These trains run regularly in 30 minute and 60 minute intervals, respectively.
-            </p>
+        <p>
+            You can take the S7 or S15 to get from the Zurich main station to Rapperswil.
+            These trains run regularly in 30 minute and 60 minute intervals, respectively.
+        </p>
 
-            <p>
-                If you arrive at the Zurich airport, first take the train to the Zurich main station and
-                then continue with S7 or S15. Trains from the airport towards the city run every few
-                minutes.
-            </p>
+        <p>
+            If you arrive at the Zurich airport, first take the train to the Zurich main station and
+            then continue with S7 or S15. Trains from the airport towards the city run every few
+            minutes.
+        </p>
 
-            <p>
-                <strong>Tickets:</strong> If you stay in Zurich city, get a day pass for <b>all zones</b>. It's good
-                for all public transportation around Zurich, up to Rapperswil. A one-way ticket costs 17.20CHF,
-                the day pass 34.40CHF. If you want to stay closer to the venue and save on transportation, please
-                see the section further below with accomodation suggestions around Rapperswil.
-            </p>
+        <p>
+            <strong>Tickets:</strong> If you stay in Zurich city, get a day pass for <b>all zones</b>. It's good
+            for all public transportation around Zurich, up to Rapperswil. A one-way ticket costs 17.20CHF,
+            the day pass 34.40CHF. If you want to stay closer to the venue and save on transportation, please
+            see the section further below with accomodation suggestions around Rapperswil.
+        </p>
 
-            <h2>Getting around</h2>
+        <h2>Getting around</h2>
 
-            <p>
-                See <a target='_blank' href='https://www.google.com/maps/d/u/0/viewer?mid=1OmDEXl-VKylIyv2Or-yH0nqah38'>this map</a> for
-                more information on accomodation, grocery stores, and other useful places.
-            </p>
-        </section>
+        <p>
+            See <a target='_blank' href='https://www.google.com/maps/d/u/0/viewer?mid=1OmDEXl-VKylIyv2Or-yH0nqah38'>this map</a> for
+            more information on accomodation, grocery stores, and other useful places.
+        </p>
     </div>
 );
 
