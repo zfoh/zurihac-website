@@ -553,7 +553,7 @@ svg {
   @media (min-width: 840px) {
     flex-direction: row;
     margin: 2em 0 100px;
-    padding: 0 0 0 10%;
+    padding: 0 0 0 100px;
   }
   @media (min-width: 1280px) {
     padding: 0;
@@ -565,8 +565,8 @@ svg {
   width: 8px;
   border: #d3d3d3 thin solid;
   border-left: none;
-  top: 170px;
-  left: 30px;
+  top: 143px;
+  left: 80px;
   bottom: 0;
   display: none;
 
@@ -574,7 +574,7 @@ svg {
     display: block;
   }
   @media (min-width: 1280px) {
-    left: -40px;
+    left: -20px;
   }
 
   & > span:first-child {
@@ -619,20 +619,30 @@ svg {
   @media (min-width: 840px) {
     position: absolute;
     left: 0;
-    min-height: 10%;
+    min-height: 60px;
   }
 }
 .dTalk {
   border-top: 2px solid white;
   padding: 1em;
-  background-color: #E71D73;
+  background-color: #791690;
   color: white;
   width: 100%;
+
+  &.lunch {
+    background-color: #1d9be7;
+  }
+  &.project {
+    background-color: #980f3a;
+  }
+  &.bbq {
+    background-color: #96860a;
+  }
 
   @media (min-width: 840px) {
     position: absolute;
     left: 0;
-    min-height: 10%;
+    min-height: 60px;
   }
 }
 .timeHeader {
@@ -661,6 +671,7 @@ svg {
   border-top: 4px solid #333;
   text-transform: uppercase;
   margin-top: 2em;
+  margin-bottom: 20px;
 }
 .dayHeaderDate {
   font-size: 1.5em;

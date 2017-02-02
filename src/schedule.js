@@ -18,8 +18,8 @@ const Day = ({day, date, children}) => (
 
 // There are the hours in the day. This serves as the domain for the y-position
 // of the events.
-const dMin = 8;
-const dMax = 22;
+const dMin = 9;
+const dMax = 21;
 
 const pct = x => (x*100) + '%';
 const fmtTime = x => {
@@ -36,9 +36,8 @@ const DPoint = ({t, label}) => (
     </div>
 )
 
-const DRange = ({t0, t1, label}) => (
-    <div className={styles.dTalk} style={{top: pct((t0 - dMin) / (dMax - dMin)), height: pct((t1 - t0) / (dMax - dMin))}}>
-        <div className={styles.timeHeader}>Talk</div>
+const DRange = ({t0, t1, label, type}) => (
+    <div className={styles.dTalk + ' ' + (type ? styles[type] : '')} style={{top: pct((t0 - dMin) / (dMax - dMin)), height: pct((t1 - t0) / (dMax - dMin))}}>
         <div className={styles.timeHeadline}>{label}</div>
         <div className={styles.timeHours}>{fmtTime(t0)} – {fmtTime(t1)}</div>
     </div>
@@ -64,14 +63,26 @@ export default () => (
             </div>
 
             <Day day='Friday' date='June 9'>
-                <DPoint t={10} label='Welcome & Project Introduction' />
+                <DPoint t={9} label='Doors open' />
+                <DRange t0={10} t1={11} label='Keynote talk' />
+                <DRange t0={11} t1={12} label='Project presentation' type='project' />
+                <DRange t0={12} t1={14} label='Lunch at HSR Mensa' type='lunch' />
+                <DRange t0={17} t1={18} label='Panel Discussion' />
+                <DRange t0={18} t1={21} label='BBQ or Hack & Pizza' type='bbq' />
             </Day>
 
             <Day day='Saturday' date='June 10'>
+                <DRange t0={10} t1={11} label='Keynote talk' />
+                <DRange t0={12} t1={14} label='Lunch at HSR Mensa' type='lunch' />
+                <DRange t0={17} t1={18} label='Keynote talk' />
+                <DRange t0={18} t1={21} label='BBQ or Hack & Pizza' type='bbq' />
             </Day>
 
             <Day day='Saturday' date='June 11'>
-                <DPoint t={16} label='Project Presentation & Closing' />
+                <DRange t0={10} t1={11} label='Keynote talk' />
+                <DRange t0={12} t1={14} label='Lunch at HSR Mensa' type='lunch' />
+                <DRange t0={15} t1={16} label='Project demos' type='project' />
+                <DPoint t={17} label='End of event' />
             </Day>
         </section>
     </div>
