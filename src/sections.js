@@ -97,7 +97,7 @@ export const Contact = () => (
 
 export const Registration = () => (
     <div className={styles.container}>
-        <a href="#" className={styles.registrationForm}>
+        <a href="https://zurihac.info/register" className={styles.registrationForm}>
             To the registration form
         </a>
 
