@@ -37,7 +37,7 @@ const DPoint = ({t, label}) => (
 )
 
 const DRange = ({t0, t1, label, type}) => (
-    <div className={styles.dTalk + ' ' + (type ? styles[type] : '')} style={{top: pct((t0 - dMin) / (dMax - dMin)), height: pct((t1 - t0) / (dMax - dMin))}}>
+    <div className={styles.dTalk + ' ' + (type ? styles['dt-' + type] : '')} style={{top: pct((t0 - dMin) / (dMax - dMin)), height: pct((t1 - t0) / (dMax - dMin))}}>
         <div className={styles.timeHeadline}>{label}</div>
         <div className={styles.timeHours}>{fmtTime(t0)} – {fmtTime(t1)}</div>
     </div>

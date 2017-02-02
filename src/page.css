@@ -629,13 +629,13 @@ svg {
   color: white;
   width: 100%;
 
-  &.lunch {
+  &.dt-lunch {
     background-color: #1d9be7;
   }
-  &.project {
+  &.dt-project {
     background-color: #980f3a;
   }
-  &.bbq {
+  &.dt-bbq {
     background-color: #96860a;
   }
 
