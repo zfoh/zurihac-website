@@ -52,6 +52,11 @@ export default () => (
         <a id='schedule' />
         <h1>Schedule</h1>
 
+        <p>
+            This schedule is provisional.
+            More details will be given prior to the start of the event.
+        </p>
+
         <section className={styles.schedule}>
             <div className={styles.scheduleLabel}>
                 <span>{fmtTime(dMin)}</span>
@@ -69,11 +74,5 @@ export default () => (
                 <DPoint t={16} label='Project Presentation & Closing' />
             </Day>
         </section>
-
-        <p>
-            This schedule is provisional.
-            More details will be given prior to the start of the event.
-        </p>
-
     </div>
 );
