@@ -24,7 +24,7 @@ const productionPlugins = [
       mangle: { screw_ie8: true },
       output: { screw_ie8: true, comments: false },
     }),
-    new ExtractTextPlugin('static/[name].css'),
+    new ExtractTextPlugin('static/[name].[hash:8].css'),
     new StaticSiteGeneratorPlugin('site', ['/'])
 ]
 

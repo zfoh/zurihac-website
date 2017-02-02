@@ -4,6 +4,15 @@ import ReactDOMServer from 'react-dom/server';
 import Page from '../page';
 
 module.exports = function(locals) {
+    const cssFiles = [];
+    locals.webpackStats.compilation.chunks.forEach(chunk => {
+        chunk.files.forEach(file => {
+            if (file.match(/.css$/)) {
+                cssFiles.push(file);
+            }
+        });
+    });
+
     return '<!DOCTYPE html>' + ReactDOMServer.renderToStaticMarkup(
         <html>
             <head>
@@ -18,7 +27,7 @@ module.exports = function(locals) {
                 <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.31.0/mapbox-gl.js'></script>
                 <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.31.0/mapbox-gl.css' rel='stylesheet' />
 
-                <link href='https://zurihac.info/static/site.css' rel='stylesheet' />
+                <link href={'https://zurihac.info/' + cssFiles[0]} rel='stylesheet' />
             </head>
             <body>
                 <Page />

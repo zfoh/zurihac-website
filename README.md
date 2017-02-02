@@ -3,7 +3,7 @@
 Live on https://zurihac.info
 
 You need nodejs and yarn to run the website locally. If you have nix installed
-you can use `nix-shell` to switch into a shell with `yarn` available. 
+you can use `nix-shell` to switch into a shell with `yarn` available.
 To start the server locally, use:
 
     $ yarn install
@@ -55,6 +55,5 @@ required assets. They are copied into a Google Cloud bucket and served
 from there.
 
     $ yarn run build
-    $ gsutil -m rsync -dr -x '.*site.*' -x '.*index.html' build/ gs://zurihac.info/
-    $ gsutil -m -h 'Cache-Control: no-cache' cp build/static/site.css{,.map} gs://zurihac.info/static/
+    $ gsutil -m rsync -dr -x '.*index.html' build/ gs://zurihac.info/
     $ gsutil -m -h 'Cache-Control: no-cache' -h 'Content-Type: text/html; charset=utf-8' cp build/index.html gs://zurihac.info/index.html
