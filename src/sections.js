@@ -88,7 +88,7 @@ export const Contact = () => (
         </p>
         <p>
             Before the event, and in particular during the event, you can
-            find us and other participants on irc://freenode.net/#zurihac.
+            find us and other participants in the <strong>#zurihac</strong> channel on <a href="https://freenode.net/">freenode</a> (open in your <a href="irc://freenode.net/#zurihac">IRC client</a> or use the <a href="https://webchat.freenode.net/?channels=zurihac">webchat</a>).
             In addition, feel free to post on Twitter and Google+ using
             the hashtag <strong>#ZuriHac2017</strong>.
         </p>
@@ -97,7 +97,7 @@ export const Contact = () => (
 
 export const Registration = () => (
     <div className={styles.container}>
-        <a href="https://zurihac.info/register" className={styles.registrationForm}>
+        <a href="/register" className={styles.registrationForm}>
             To the registration form
         </a>
 
