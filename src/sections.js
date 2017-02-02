@@ -12,6 +12,7 @@ export const Header = () => (
 
 export const About = () => (
     <div className={styles.container}>
+        <a id='about' />
         <h1>About</h1>
         <p>
             Beginning of June 2017, the <a href='https://www.meetup.com/HaskellerZ/'>Zurich Haskell Meetup Group</a> will organize ZuriHac 2017,
@@ -79,6 +80,7 @@ export const Sponsors = () => (
 
 export const Contact = () => (
     <div className={styles.container}>
+        <a id='contact' />
         <h1>Contact</h1>
         <p>
             If you have any questions before the event, please reach out
@@ -116,6 +118,7 @@ export const Registration = () => (
 
 export const Venue = () => (
     <div className={styles.container}>
+        <a id='venue' />
         <h1>Venue</h1>
         <section>
             <p>

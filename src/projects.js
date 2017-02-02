@@ -65,6 +65,7 @@ const Project = ({title, contact, skillLevel, skillLevelTo, homepage, children})
 
 export default () => (
     <div className={styles.projects}>
+        <a id='projects' />
         <h1>Projects</h1>
 
         <div className={styles.container}>

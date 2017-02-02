@@ -30,6 +30,7 @@ const Speaker = ({img, title, author, github, twitter, children}) => (
 
 export default () => (
     <div className={styles.talks}>
+        <a id='speakers' />
         <h1>Speakers</h1>
 
         <section className={styles.talksSection}>

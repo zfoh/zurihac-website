@@ -49,6 +49,7 @@ const DRange = ({t0, t1, label}) => (
 
 export default () => (
     <div className={styles.container}>
+        <a id='schedule' />
         <h1>Schedule</h1>
 
         <section className={styles.schedule}>

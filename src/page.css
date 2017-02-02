@@ -72,6 +72,7 @@ svg {
 }
 
 .container {
+  overflow: hidden;
   margin: 0 auto;
   padding: 0 5%;
 
@@ -111,6 +112,52 @@ svg {
   }
   @media (min-width: 1280px) {
       height: 220px;
+  }
+}
+
+.navBarContainer {
+  position: relative;
+}
+.navBar {
+  height: 60px;
+  background-color: #315C1E;
+  margin-top: 1px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+:global(.fixed) {
+  position: fixed;
+  margin-top: 0;
+}
+.navBarSpacer {
+  height: 60px;
+}
+.navBarInner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.navItem {
+  margin: 0 7px;
+  color: white;
+  line-height: 30px;
+  font-size: 14px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 400;
+
+  @media (min-width: 700px) {
+      line-height: 60px;
+      font-size: 16px;
+      margin: 0 15px;
+  }
+
+  &:hover {
+    color: #9eb594;
   }
 }
 

@@ -3,10 +3,12 @@ import {Header, About, Sponsors, Venue, Media, Registration, Contact, Footer} fr
 import Projects from './projects'
 import Schedule from './schedule';
 import Speakers from './speakers';
+import Navigation from './navigation';
 
 export default () => (
     <div>
         <Header />
+        <Navigation />
         <About />
         <Sponsors />
         <Speakers />

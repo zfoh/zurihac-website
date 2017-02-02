@@ -1,3 +1,6 @@
+var smoothScroll = require('./smooth-scroll.js');
+smoothScroll.init({ selector: 'a[href^="#"]' });
+
 if (typeof mapboxgl !== 'undefined') {
     setTimeout(function() {
         var center = [8.8172754, 47.2233188];
@@ -18,4 +21,18 @@ if (typeof mapboxgl !== 'undefined') {
             .setLngLat(center)
             .addTo(map);
     }, 500);
+}
+
+var navBarContainer = document.getElementById('nav-bar-container');
+var navBar = document.getElementById('nav-bar');
+
+if (navBarContainer !== null && navBar !== null) {
+    window.addEventListener('scroll', function() {
+        var bcr = navBarContainer.getBoundingClientRect();
+        if (bcr.top < 0) {
+          navBar.classList.add('fixed');
+        } else {
+          navBar.classList.remove('fixed');
+        }
+    });
 }
