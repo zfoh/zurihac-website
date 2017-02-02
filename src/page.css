@@ -216,8 +216,10 @@ svg {
   clear: both;
   display: flex;
   flex-direction: column;
-  fleex-wrap: wrap;
+  flex-wrap: wrap;
   padding: 30px 0;
+  max-width: 1600px;
+  margin: 0 auto;
 
   @media (min-width: 840px) {
     flex-direction: row;
@@ -235,7 +237,7 @@ svg {
   }
 
   @media (min-width: 840px) {
-    height: 900px;
+    height: 660px;
     width: 40%;
   }
 }
@@ -260,7 +262,7 @@ svg {
   display: block;
   width: 100%;
   margin: 0 0 2px 0;
-  height: 300px;
+  height: 220px;
   object-fit: cover;
 
   @media (min-width: 600px) {
@@ -400,15 +402,22 @@ svg {
 .talksSection {
   display: flex;
   flex-direction: column;
-  margin: 3.5em 10% 0;
+  margin: 3.5em auto 0;
+  padding: 0 5%;
 
+  @media (min-width: 620px) {
+    max-width: 688px;
+  }
+  @media (min-width: 800px) {
+    max-width: 864px;
+  }
   @media (min-width: 840px) {
-    margin: 3.5em 10% 0;
     flex-direction: row;
     flex-wrap: wrap;
   }
   @media (min-width: 1024px) {
-    margin: 3.5em 10% 0;
+    margin: 3.5em auto 0;
+    max-width: 1280px;
   }
 }
 
@@ -424,11 +433,10 @@ svg {
   }
   @media (min-width: 1024px) {
     padding: 0 40px;
-    width: calc((100% - 40px) / 2);
+    width: 50%;
     margin-bottom: 80px;
   }
   @media (min-width: 1440px) {
-    /*width: calc((100% - 40px) / 3);*/
     margin-bottom: 120px;
   }
 }

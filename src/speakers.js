@@ -33,7 +33,7 @@ export default () => (
         <a id='speakers' />
         <h1>Speakers</h1>
 
-        <section className={styles.talksSection}>
+        <div className={styles.talksSection}>
             <Speaker author="Edward Kmett" img={require('../static/ekmett.jpg')} github='ekmett' twitter='kmett'>
                 Prolific Haskell programmer, mathematician, lapsed graphics guru and demo scener, defense contractor, financial toolsmith,
                 author of the widely-known <a href="https://github.com/ekmett/lens/">lens</a> library.
@@ -57,6 +57,6 @@ export default () => (
                 is the author of numerous open-source Haskell packages including <a href="https://hackage.haskell.org/package/hlint">Hlint</a> (which makes suggestions on how to improve your Haskell code), <a href="https://www.haskell.org/hoogle/">Hoogle</a> (which searches for functions by both name and type signature) and <a href="http://shakebuild.com/">Shake</a> (a build system, being used for the next iteration of the GHC
                 build system).
             </Speaker>
-        </section>
+        </div>
     </div>
 );
