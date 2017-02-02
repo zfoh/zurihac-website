@@ -57,4 +57,4 @@ from there.
     $ yarn run build
     $ gsutil -m rsync -dr -x '.*site.*' -x '.*index.html' build/ gs://zurihac.info/
     $ gsutil -m -h 'Cache-Control: no-cache' cp build/static/site.css{,.map} gs://zurihac.info/static/
-    $ gsutil -m -h 'Cache-Control: no-cache' cp build/index.html gs://zurihac.info/index.html
+    $ gsutil -m -h 'Cache-Control: no-cache' -h 'Content-Type: text/html; charset=utf-8' cp build/index.html gs://zurihac.info/index.html
