@@ -157,9 +157,10 @@ export const Venue = () => (
 
             <h2>Getting around</h2>
 
-            See <a target='_blank' href='https://www.google.com/maps/d/u/0/viewer?mid=1OmDEXl-VKylIyv2Or-yH0nqah38'>this map</a> for
-            more information on accomodation, grocery stores, and other useful places.
-
+            <p>
+                See <a target='_blank' href='https://www.google.com/maps/d/u/0/viewer?mid=1OmDEXl-VKylIyv2Or-yH0nqah38'>this map</a> for
+                more information on accomodation, grocery stores, and other useful places.
+            </p>
         </section>
     </div>
 );
