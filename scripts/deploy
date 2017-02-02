@@ -1,0 +1,7 @@
+#!/bin/sh
+set -ex
+
+rm -rf build
+yarn run build
+gsutil -m rsync -dr -x '.*index.html' build/ gs://zurihac.info/
+gsutil -m -h 'Cache-Control: no-cache' -h 'Content-Type: text/html; charset=utf-8' cp build/index.html gs://zurihac.info/index.html
