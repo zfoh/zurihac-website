@@ -39,7 +39,8 @@ export default () => (
             </Speaker>
 
             <Speaker author="Stephen Diehl" img={require('../static/stephen-diehl.jpg')} github='sdiehl' twitter='smdiehl'>
-                Software engineer in Boston, Massachusetts.
+                Stephen is a Haskell developer, entrepreneur, and financial systems architect from Boston. His open source
+                work is around numerical computing, compilers, security, and improving Haskell documentation.
                 Author of the amazing <a href="http://dev.stephendiehl.com/hask/">What I Wish I Knew When Learning Haskell</a>.
             </Speaker>
 
@@ -48,8 +49,12 @@ export default () => (
             </Speaker>
 
             <Speaker author="Neil Mitchell" img={require('../static/ndmitchell.jpg')} github='ndmitchell' twitter='ndm_haskell'>
-                Professional Haskell programmer working at Barclays Bank.
-                Some of the more famous projects he created are <a href="http://shakebuild.com/">Shake</a>, <a href="https://www.haskell.org/hoogle/">Hoogle</a>, and <a href="https://hackage.haskell.org/package/hlint">Hlint</a>.
+                Neil Mitchell has been a Haskell programmer since his PhD at York
+                University, where he worked on making functional programs shorter,
+                faster and safer. Since then he's worked in industry, taking the
+                lessons of functional programming and applying them in finance. Neil
+                is the author of numerous open-source Haskell packages including <a href="https://hackage.haskell.org/package/hlint">Hlint</a> (which makes suggestions on how to improve your Haskell code), <a href="https://www.haskell.org/hoogle/">Hoogle</a> (which searches for functions by both name and type signature) and <a href="http://shakebuild.com/">Shake</a> (a build system, being used for the next iteration of the GHC
+                build system).
             </Speaker>
         </section>
     </div>
