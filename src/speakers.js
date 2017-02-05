@@ -46,7 +46,11 @@ export default () => (
             </Speaker>
 
             <Speaker author="Julie Moronuki" img={require('../static/julie.jpg')} github='GinBaby' twitter='argumatronic'>
-                Julie Moronuki is one of the authors of the great <a href="http://haskellbook.com/">Haskell programming from first principles</a> book.
+                Julie is a linguist and teacher who decided, on a whim, to learn Haskell. As her interest in lambdas and
+                static typing grew, she wanted to use her teaching expertise to write a Haskell book for beginners,
+                and the result was <a href='http://haskellbook.com/'>Haskell Programming from First Principles</a>.
+                Currently she lives in Austin, Texas, where she homeschools her children, adopts too many animals,
+                teaches Haskell at a local meetup, and is working on a new book, called The Joy of Haskell.
             </Speaker>
 
             <Speaker author="Neil Mitchell" img={require('../static/ndmitchell.jpg')} github='ndmitchell' twitter='ndm_haskell'>
