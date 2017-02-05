@@ -30,8 +30,8 @@ module.exports = function(locals) {
             <body>
                 <Page />
 
-                <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.31.0/mapbox-gl.js'></script>
-                <script src={locals.assets.main} />
+                <script defer src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.31.0/mapbox-gl.js'></script>
+                <script defer src={locals.assets.main} />
             </body>
       </html>
     );
