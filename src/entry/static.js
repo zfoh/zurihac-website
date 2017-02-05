@@ -23,14 +23,14 @@ module.exports = function(locals) {
 
                 <link rel="shortcut icon" href={require('../../static/favicon.ico')} />
                 <link href="https://fonts.googleapis.com/css?family=Lora|Raleway:400,500" rel="stylesheet" />
-
-                <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.31.0/mapbox-gl.js'></script>
                 <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.31.0/mapbox-gl.css' rel='stylesheet' />
 
                 <link href={'https://zurihac.info/' + cssFiles[0]} rel='stylesheet' />
             </head>
             <body>
                 <Page />
+
+                <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.31.0/mapbox-gl.js'></script>
                 <script src={locals.assets.main} />
             </body>
       </html>
