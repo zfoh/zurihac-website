@@ -290,7 +290,7 @@ svg {
 .projectsContainer {
   display: flex;
   flex-direction: column;
-  margin: 5em 8% 0;
+  margin: 5em 5% 0;
 
   @media (min-width: 840px) {
     margin: 5em 10% 0;
@@ -304,15 +304,25 @@ svg {
 .projectsLegend {
   margin: 60px auto 30px;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
+  flex-wrap: wrap;
+
+  @media (min-width: 600px) {
+    flex-direction: row;
+  }
 }
 .projectLegendItem {
   font-size: 16px;
   color: #666666;
   display: flex;
   align-items: center;
-  margin: 0 20px;
+  margin: 0 20px 10px 0;
+   justify-content: space-between;
+
+  @media (min-width: 600px) {
+    justify-content: initial;
+  }
 }
 .projectLegendItemLabel {
   margin-right: 8px;
@@ -325,6 +335,7 @@ svg {
 }
 .skillLevelIcon {
   line-height: 0;
+  display: flex;
 }
 
 .project {

@@ -79,15 +79,17 @@ export default () => (
             </p>
         </div>
 
-        <div className={styles.projectsLegend}>
-            <div className={styles.projectLegendItem}>
-                <div className={styles.projectLegendItemLabel}>Beginner</div><SkillLevelBeginnerIcon />
-            </div>
-            <div className={styles.projectLegendItem}>
-                <div className={styles.projectLegendItemLabel}>Advanced</div> <SkillLevelAdvancedIcon />
-            </div>
-            <div className={styles.projectLegendItem}>
-                <div className={styles.projectLegendItemLabel}>Expert</div> <SkillLevelExpertIcon />
+        <div className={styles.container}>
+            <div className={styles.projectsLegend}>
+                <div className={styles.projectLegendItem}>
+                    <div className={styles.projectLegendItemLabel}>Beginner</div><SkillLevelBeginnerIcon />
+                </div>
+                <div className={styles.projectLegendItem}>
+                    <div className={styles.projectLegendItemLabel}>Advanced</div> <SkillLevelAdvancedIcon />
+                </div>
+                <div className={styles.projectLegendItem}>
+                    <div className={styles.projectLegendItemLabel}>Expert</div> <SkillLevelExpertIcon />
+                </div>
             </div>
         </div>
 
