@@ -195,8 +195,7 @@ svg {
 .sponsor {
   display: flex;
   flex: 0 0 auto;
-  max-width: 200px;
-  max-height: 100px;
+  height: 60px;
   margin: 20px;
   justify-content: center;
   align-items: center;
@@ -207,8 +206,6 @@ svg {
   }
   @media (min-width: 1280px) {
     margin: 40px 60px;
-    max-width: 260px;
-    max-height: 120px;
   }
 }
 
