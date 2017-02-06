@@ -52,7 +52,7 @@ export const About = () => (
 export const Footer = () => (
     <footer className={styles.footer}>
         <div className={styles.innerFooter}>
-            © 2017 ZuriHac Organization Comittee<br/>
+            © 2017 ZuriHac Organization Committee<br/>
             <a className={styles.footerContactLink} href='mailto:tomas.carnecky@gmail.com'>tomas.carnecky@gmail.com</a>
         </div>
     </footer>
