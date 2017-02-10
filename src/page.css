@@ -182,6 +182,12 @@ svg {
   color: currentColor;
   text-decoration: none;
 }
+.footerLinkSeparator {
+  display: inline-block;
+  height: 16px;
+  border-right: 1px solid currentColor;
+  margin: 0 6px -4px;
+}
 
 
 .sponsors {

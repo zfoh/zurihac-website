@@ -52,8 +52,12 @@ export const About = () => (
 export const Footer = () => (
     <footer className={styles.footer}>
         <div className={styles.innerFooter}>
-            © 2017 ZuriHac Organization Committee<br/>
-            <a className={styles.footerContactLink} href='mailto:tomas.carnecky@gmail.com'>tomas.carnecky@gmail.com</a>
+            © 2017 ZuriHac Organization Committee
+            <div>
+                <a className={styles.footerContactLink} href='mailto:tomas.carnecky@gmail.com'>tomas.carnecky@gmail.com</a>
+                <div className={styles.footerLinkSeparator} />
+                <a className={styles.footerContactLink} href='https://github.com/wereHamster/zurihac-2017-website'>website source</a>
+            </div>
         </div>
     </footer>
 );
