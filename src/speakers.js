@@ -47,7 +47,7 @@ export default () => (
 
             <Speaker author="Julie Moronuki" img={require('../static/julie.jpg')} github='GinBaby' twitter='argumatronic'>
                 Julie is a linguist and teacher who decided, on a whim, to learn Haskell. As her interest in lambdas and
-                static typing grew, she wanted to use her teaching expertise to write a Haskell book for beginners,
+                static typing grew, she decided to use her teaching expertise to write a Haskell book for beginners,
                 and the result was <a href='http://haskellbook.com/'>Haskell Programming from First Principles</a>.
                 Currently she lives in Austin, Texas, where she homeschools her children, adopts too many animals,
                 teaches Haskell at a local meetup, and is working on a new book, called The Joy of Haskell.
