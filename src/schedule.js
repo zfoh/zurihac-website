@@ -78,7 +78,7 @@ export default () => (
                 <DRange t0={18} t1={21} label='BBQ or Hack & Pizza' type='lunch' />
             </Day>
 
-            <Day day='Saturday' date='June 11'>
+            <Day day='Sunday' date='June 11'>
                 <DRange t0={10} t1={11} label='Keynote talk' />
                 <DRange t0={12} t1={14} label='Lunch at HSR Mensa' type='lunch' />
                 <DRange t0={15} t1={16} label='Project demos' />
