@@ -61,6 +61,18 @@ export default () => (
                 is the author of numerous open-source Haskell packages including <a href="https://hackage.haskell.org/package/hlint">Hlint</a> (which makes suggestions on how to improve your Haskell code), <a href="https://www.haskell.org/hoogle/">Hoogle</a> (which searches for functions by both name and type signature) and <a href="http://shakebuild.com/">Shake</a> (a build system, being used for the next iteration of the GHC
                 build system).
             </Speaker>
+
+            <Speaker author="Simon Thompson" img={require('../static/simon-thompson.jpg')} twitter='thompson_si'>
+                Simon Thompson is Professor of Logic and Computation in the
+                School of Computing at
+                the <a href="https://www.cs.kent.ac.uk/people/staff/sjt/">University of Kent</a>.
+                His main research interests are in functional programming, most
+                recently in designing tools to help people to write and test
+                programs more effectively.  One example of such a tool is
+                the <a href="https://hackage.haskell.org/package/HaRe">Haskell Refactorer</a>.
+                He is also the author of introductory texts on Haskell, Erlang
+                and Miranda, as well as Type Theory and Functional Programming.
+            </Speaker>
         </div>
     </div>
 );
