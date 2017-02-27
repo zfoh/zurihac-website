@@ -66,14 +66,14 @@ export const Sponsors = () => (
     <div>
         <h2>Supported by</h2>
         <div className={styles.sponsors}>
-            <a href="https://www.hsr.ch" target="_blank">
-              <img className={'lazyload ' + styles.sponsor} alt="HSR Logo" data-src={require('../static/hsr.jpg')} />
-            </a>
             <a href="https://digitalasset.com/careers.html" target="_blank">
               <img className={'lazyload ' + styles.sponsor} alt="Digital Asset Logo" data-src={require('../static/digitalasset-big-blue.png')} />
             </a>
-            <a href="https://careers.google.com/locations/zurich/" target="_blank">
-               <img className={'lazyload ' + styles.sponsor} alt="Google Logo" data-src={require('../static/google.png')} />
+            <a href="https://developers.google.com/open-source/" target="_blank">
+              <img className={'lazyload ' + styles.sponsor} alt="Google Open Source Programs Office, Google Logo" data-src={require('../static/google.png')} />
+            </a>
+            <a href="https://www.hsr.ch" target="_blank">
+              <img className={'lazyload ' + styles.sponsor} alt="HSR Logo" data-src={require('../static/hsr.jpg')} />
             </a>
         </div>
     </div>
