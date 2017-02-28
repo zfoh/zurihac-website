@@ -107,7 +107,6 @@ export const Registration = () => (
             on the <a href="https://www.reddit.com/r/haskell/">Haskell reddit</a>.
             Stay tuned.
         </p>
-        {/*
         <a href="/register" className={styles.registrationForm}>
             To the registration form
         </a>
@@ -123,7 +122,6 @@ export const Registration = () => (
             know. Do not book anything before we have confirmed a seat
             for you (in a second confirmation email) though.
         </p>
-        */}
     </div>
 );
 
