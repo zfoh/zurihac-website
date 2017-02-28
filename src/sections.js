@@ -101,12 +101,7 @@ export const Registration = () => (
     <div className={styles.container}>
         <a id='registration' />
         <h1>Registration</h1>
-        <p>
-            Registration is not open yet. We will announce it in due time
-            on the <a href="https://mail.haskell.org/mailman/listinfo/haskell">Haskell mailing list</a> and
-            on the <a href="https://www.reddit.com/r/haskell/">Haskell reddit</a>.
-            Stay tuned.
-        </p>
+
         <a href="/register" className={styles.registrationForm}>
             To the registration form
         </a>
