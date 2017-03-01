@@ -115,7 +115,9 @@ export const Registration = () => (
             In case that somebody cancels we will fill up the seats from
             the wait list in first come first serve order and let you
             know. Do not book anything before we have confirmed a seat
-            for you (in a second confirmation email) though.
+            for you (in a confirmation email) though. Confirmation emails are
+            sent out in batches and this is a manual process, so expect some
+            delay there.
         </p>
     </div>
 );
