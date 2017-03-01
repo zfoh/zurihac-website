@@ -22,6 +22,15 @@ const projects = [
         'Hakyll is a Haskell library for generating static sites, mostly aimed at small-to-medium sites and personal blogs. It is written in a very configurable way and uses an xmonad-like DSL for configuration.'
       )
     },
+    { title: 'ghc-mod'
+    , contact: 'Daniel Gröber'
+    , skillLevel: 'beginner'
+    , skillLevelTo: 'expert'
+    , homepage: 'https://github.com/DanielG/ghc-mod'
+    , children: (
+        'ghc-mod provides editors and IDEs with support for advanced Haskell compiler features, it supports both Cabal and Stack based projects and integrations exist for Emacs, Vim, Atom, IntelliJ and VSCode.'
+      )
+    },
 ];
 
 
