@@ -22,6 +22,15 @@ const projects = [
         'Hakyll is a Haskell library for generating static sites, mostly aimed at small-to-medium sites and personal blogs. It is written in a very configurable way and uses an xmonad-like DSL for configuration.'
       )
     },
+    { title: 'HaskellDO'
+    , contact: 'Nikita Tchayka'
+    , skillLevel: 'beginner'
+    , skillLevelTo: 'advanced'
+    , homepage: 'https://github.com/theam/haskell-do'
+    , children: (
+        'HaskellDO is a Haskell code editor, centered around interactive development. It\'s main goal is to help data science tasks be easy in Haskell, as inline plotting and fast development iterations.'
+      )
+    },
 ];
 
 
