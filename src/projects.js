@@ -31,6 +31,15 @@ const projects = [
         'ghc-mod provides editors and IDEs with support for advanced Haskell compiler features, it supports both Cabal and Stack based projects and integrations exist for Emacs, Vim, Atom, IntelliJ and VSCode.'
       )
     },
+    { title: 'HaskellDO'
+    , contact: 'Nikita Tchayka'
+    , skillLevel: 'beginner'
+    , skillLevelTo: 'advanced'
+    , homepage: 'https://github.com/theam/haskell-do'
+    , children: (
+        'HaskellDO is a Haskell code editor, centered around interactive development. It\'s main goal is to help data science tasks be easy in Haskell, as inline plotting and fast development iterations.'
+      )
+    },
 ];
 
 
