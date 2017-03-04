@@ -40,6 +40,15 @@ const projects = [
         'HaskellDO is a Haskell code editor, centered around interactive development. It\'s main goal is to help data science tasks be easy in Haskell, as inline plotting and fast development iterations.'
       )
     },
+    { title: 'haskell-opencv'
+    , contact: 'Bas van Dijk'
+    , skillLevel: 'advanced'
+    , skillLevelTo: 'expert'
+    , homepage: 'https://github.com/LumiGuide/haskell-opencv'
+    , children: (
+        'opencv is a Haskell library providing a binding to the OpenCV-3.x C++ library. It binds directly with the C++ API using the inline-c Haskell library.'
+      )
+    },
 ];
 
 
