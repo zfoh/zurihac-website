@@ -49,6 +49,15 @@ const projects = [
         'opencv is a Haskell library providing a binding to the OpenCV-3.x C++ library. It binds directly with the C++ API using the inline-c Haskell library.'
       )
     },
+    { title: 'Aelve Guide'
+    , contact: 'Artyom Kazak'
+    , skillLevel: 'beginner'
+    , skillLevelTo: 'advanced'
+    , homepage: 'https://github.com/aelve/guide'
+    , children: (
+        'Aelve Guide is a wiki for all Haskell-related things. It provides package comparisons/recommendations, code examples and usage notes; it also has pages on Haskell tools, papers, books, and so on.'
+      )
+    },
 ];
 
 
