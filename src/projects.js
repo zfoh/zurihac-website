@@ -58,6 +58,15 @@ const projects = [
         'Aelve Guide is a wiki for all Haskell-related things. It provides package comparisons/recommendations, code examples and usage notes; it also has pages on Haskell tools, papers, books, and so on.'
       )
     },
+    { title: 'servant'
+    , contact: 'Oleg Grenrus'
+    , skillLevel: 'beginner'
+    , skillLevelTo: 'expert'
+    , homepage: 'https://github.com/haskell-servant/servant'
+    , children: (
+        'servant is a set of packages for declaring web APIs at the type-level and then using those API specifications to write server, obtain client functions etc'
+      )
+    },
 ];
 
 
