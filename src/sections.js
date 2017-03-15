@@ -97,6 +97,18 @@ export const Contact = () => (
     </div>
 );
 
+export const Conditions = () => (
+    <div className={styles.container}>
+        <a id='conditions' />
+        <h2>Terms and Conditions</h2>
+        <p>
+            Each participant will retain ownership of any and all
+            intellectual and industrial property rights to his
+            or her work created or used during the Hackathon.
+        </p>
+    </div>
+);
+
 export const Registration = () => (
     <div className={styles.container}>
         <a id='registration' />
