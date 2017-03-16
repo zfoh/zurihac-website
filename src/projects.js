@@ -5,14 +5,6 @@ import {starIcon, starBorderIcon} from './icons.js';
 
 
 const projects = [
-    // { title: 'Hadrian'
-    // , contact: 'Andrey Mokhov'
-    // , skillLevel: 'advanced'
-    // , homepage: 'https://github.com/snowleopard/hadrian'
-    // , children: (
-    //     'Hadrian is a new build system for the Glasgow Haskell Compiler. It is based on the Shake library and we hope that it will eventually replace the current make-based build system. You can find more details about the motivation behind this project and our implementation approach in this document.'
-    //   )
-    // },
     { title: 'Hakyll'
     , contact: 'Jasper Van der Jeugt'
     , skillLevel: 'beginner'
@@ -65,6 +57,15 @@ const projects = [
     , homepage: 'https://github.com/haskell-servant/servant'
     , children: (
         'servant is a set of packages for declaring web APIs at the type-level and then using those API specifications to write server, obtain client functions etc'
+      )
+    },
+    { title: 'Blast'
+    , contact: 'Jean-Christophe Mincke'
+    , skillLevel: 'advanced'
+    , skillLevelTo: 'expert'
+    , homepage: 'https://github.com/jcmincke/Blast'
+    , children: (
+        'Distributed computing library looking for easy-to-use deployment tools.'
       )
     },
 ];
