@@ -65,7 +65,7 @@ const projects = [
     , skillLevelTo: 'expert'
     , homepage: 'https://github.com/jcmincke/Blast'
     , children: (
-        'Distributed computing library looking for easy-to-use deployment tools.'
+        'Blast is a distributed computing library inspired by Apache Spark. The current implementation provides local thread and CloudHaskell backends.The next step is to develop a set tools to easily deploy Blast on a cluster.'
       )
     },
 ];
