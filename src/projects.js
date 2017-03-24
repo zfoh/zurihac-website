@@ -68,6 +68,15 @@ const projects = [
         'Distributed computing library looking for easy-to-use deployment tools.'
       )
     },
+    { title: 'Intermediate Haskell'
+    , contact: 'Vladislav Zavialov'
+    , skillLevel: 'beginner'
+    , skillLevelTo: 'advanced'
+    , homepage: 'http://intermediatehaskell.com/'
+    , children: (
+        'Intermediate Haskell is a book that aims to fill the gap between reading LYAH and research papers. It covers topics one usually reads about in blog posts and wiki pages.'
+      )
+    },
 ];
 
 
