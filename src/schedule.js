@@ -66,7 +66,7 @@ export default () => (
                 <DPoint t={9} label='Doors open' />
                 <DRange t0={10} t1={11} label='Keynote talk' />
                 <DRange t0={11} t1={12} label='Project presentation' />
-                <DRange t0={12} t1={14} label='Lunch at HSR Mensa' type='lunch' />
+                <DRange t0={12.5} t1={14} label='Lunch at HSR Mensa' type='lunch' />
                 <DRange t0={17} t1={18} label='Panel Discussion' />
                 <DRange t0={18} t1={21} label='BBQ or Hack & Pizza' type='lunch' />
             </Day>
