@@ -567,7 +567,7 @@ svg {
   @media (min-width: 840px) {
     flex-direction: row;
     margin: 2em 0 100px;
-    padding: 0 0 0 100px;
+    padding: 0 0 0 120px;
   }
   @media (min-width: 1280px) {
     padding: 0;
@@ -580,7 +580,7 @@ svg {
   border: #d3d3d3 thin solid;
   border-left: none;
   top: 143px;
-  left: 80px;
+  left: 100px;
   bottom: 0;
   display: none;
 
@@ -588,17 +588,17 @@ svg {
     display: block;
   }
   @media (min-width: 1280px) {
-    left: -20px;
+    left: -10px;
   }
 
   & > span:first-child {
     position: absolute;
-    right: 20px;
+    right: 10px;
     top: -12px;
   }
   & > span:last-child {
     position: absolute;
-    right: 20px;
+    right: 10px;
     bottom: -12px;
   }
 }
