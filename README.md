@@ -46,14 +46,8 @@ Try to provide a short description of the person, in third-person tense.
 
 ## Deployment
 
-After you make changes, please ping me (@wereHamster) to deploy them. I might
-add automatic deployment (travis-ci?) later if it becomes a burden or we need faster
-iteration speeds.
+The master branch is automatically deployed after each push (using Google Cloud
+Container Builder, see the deploy.yaml file in the root of the repository).
 
-The output of the build process is one HTML file, one CSS file and all
-required assets. They are copied into a Google Cloud bucket and served
-from there.
-
-    $ yarn run build
-    $ gsutil -m rsync -dr -x '.*index.html' build/ gs://zurihac.info/
-    $ gsutil -m -h 'Cache-Control: no-cache' -h 'Content-Type: text/html; charset=utf-8' cp build/index.html gs://zurihac.info/index.html
+Manual deployment is possible if you have access to the gs://zurihac.info Google
+Storage bucket. Use the `script/deploy` shell script.
