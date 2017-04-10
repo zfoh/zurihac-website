@@ -1,0 +1,11 @@
+steps:
+
+- name: 'kkarczmarczyk/node-yarn:7.6'
+  args: [ 'yarn' ]
+- name: 'kkarczmarczyk/node-yarn:7.6'
+  args: [ 'yarn', 'run', 'build' ]
+
+- name: 'gcr.io/cloud-builders/gsutil'
+  args: ['-m', '-h', 'Cache-Control: max-age=31536000', 'rsync', '-r', '-x', '.*index.html', 'build/', 'gs://zurihac.info/']
+- name: 'gcr.io/cloud-builders/gsutil'
+  args: ['-m', '-h', 'Cache-Control: no-cache', '-h', 'Content-Type: text/html; charset=utf-8', 'cp', 'build/index.html', 'gs://zurihac.info/index.html']
