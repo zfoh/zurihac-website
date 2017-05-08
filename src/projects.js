@@ -68,6 +68,15 @@ const projects = [
         'Intermediate Haskell is a book that aims to fill the gap between reading LYAH and research papers. It covers topics one usually reads about in blog posts and wiki pages.'
       )
     },
+    { title: 'Nomyx'
+    , contact: 'Corentin Dupont'
+    , skillLevel: 'beginner'
+    , skillLevelTo: 'advanced'
+    , homepage: 'http://www.nomyx.net/'
+    , children: (
+        'Nomyx is a game where you can change the rules of the game itself, while playing it! In fact, changing the rules is the goal of the game.'
+      )
+    },
 ];
 
 
