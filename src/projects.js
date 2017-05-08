@@ -71,7 +71,7 @@ const projects = [
     { title: 'Nomyx'
     , contact: 'Corentin Dupont'
     , skillLevel: 'beginner'
-    , skillLevelTo: 'advanced'
+    , skillLevelTo: 'expert'
     , homepage: 'http://www.nomyx.net/'
     , children: (
         'Nomyx is a game where you can change the rules of the game itself, while playing it! In fact, changing the rules is the goal of the game.'
