@@ -5,7 +5,7 @@ import styles from './page.css';
 
 export const Header = () => (
     <header className={styles.header}>
-        <img className={styles.headerLogo} alt="ZuriHac 2017, 9-11 July" src={require('../static/header-logo.svg')} />
+        <img className={styles.headerLogo} alt="ZuriHac 2017, 9-11 June" src={require('../static/header-logo.svg')} />
     </header>
 );
 
