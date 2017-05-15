@@ -5,6 +5,16 @@ import {starIcon, starBorderIcon} from './icons.js';
 
 
 const projects = [
+    { title: 'Haskell-Serbia'
+      , contact: 'Sasa Bogicevic'
+      , skillLevel: 'beginner'
+      , skillLevelTo: 'advanced'
+      , homepage: 'http://haskell-serbia.com'
+      , children: (
+          'Haskell-Serbia is a Serbian haskell user group website. It is written in Yesod and has basic functionality for managing users and creating tutorials.'
+      )
+    },
+
     { title: 'Hakyll'
     , contact: 'Jasper Van der Jeugt'
     , skillLevel: 'beginner'
