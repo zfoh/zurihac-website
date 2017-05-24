@@ -87,6 +87,15 @@ const projects = [
         'Nomyx is a game where you can change the rules of the game itself, while playing it! In fact, changing the rules is the goal of the game.'
       )
     },
+    { title: 'qua-kit'
+    , contact: 'Artem Chirkin'
+    , skillLevel: 'advanced'
+    , skillLevelTo: 'expert'
+    , homepage: 'https://github.com/achirkin/qua-kit'
+    , children: (
+        'Qua-kit is a web platform for collaborative analysis and manipulation of simple 3D urban geometry. The website provides means to set up urban design exercises, show demos, and share proposals. We use yesod, GHCJS, and WebGL.'
+      )
+    },
 ];
 
 
