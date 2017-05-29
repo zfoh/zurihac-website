@@ -5,6 +5,15 @@ import {starIcon, starBorderIcon} from './icons.js';
 
 
 const projects = [
+    { title: 'LambdaHack and haskell-game/sdl2-ttf'
+    , contact: 'Mikolaj Konarski'
+    , skillLevel: 'beginner'
+    , skillLevelTo: 'advanced'
+    , homepage: 'https://lambdahack.github.io'
+    , children: (
+        'If there are any Haskell+Games(+SDL) people around, I\'d love to chat and brainstorm with you. Apart of that, I will be playtesting my ASCII roguelike game and I could really use some help. Also, if you\'d like to create your own world in the LambdaHack game engine, that can be accomplished within a single hackathon. Regarding sdl2-ttf, if anybody would like to join me, we could hack a PR that merges the two completely separate sets of Haskell bindings to the SDL2 True Type font library --- there is goodwill of all the present and past maintainers of both packages.'
+      )
+    },
     { title: 'Haskell-Serbia'
       , contact: 'Sasa Bogicevic'
       , skillLevel: 'beginner'
