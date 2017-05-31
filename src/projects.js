@@ -105,6 +105,15 @@ const projects = [
         'Qua-kit is a web platform for collaborative analysis and manipulation of simple 3D urban geometry. The website provides means to set up urban design exercises, show demos, and share proposals. We use yesod, GHCJS, and WebGL.'
       )
     },
+    { title: 'haskell-indexer'
+    , contact: 'Robin Palotai, Ivan Krišto'
+    , skillLevel: 'advanced'
+    , skillLevelTo: 'expert'
+    , homepage: 'https://github.com/google/haskell-indexer'
+    , children: (
+        'Haskell Indexer generates kythe.io code crossreference data, which can then be used to browse huge codebases (similar to the former Google Code Search).'
+      )
+    },
 ];
 
 
