@@ -123,6 +123,16 @@ const projects = [
         'An AI for the programmer MMO RTS sandbox game Screeps. Some basic GHCJS bindings already work, but are still quite rudimentary.'
       )
     },
+    { title: 'Quid2'
+    , contact: 'Pasqualino Titto Assini'
+    , skillLevel: 'beginner'
+    , skillLevelTo: 'expert'
+    , homepage: 'http://quid2.org/'
+    , children: (
+        'Open, evolvable, consistent and efficient distributed systems (with an awful lot of Haskell code to hack, guaranteed fun for beginners and experts alike or your money back).'
+      )
+    },
+
 ];
 
 
