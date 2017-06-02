@@ -114,6 +114,15 @@ const projects = [
         'Haskell Indexer generates kythe.io code crossreference data, which can then be used to browse huge codebases (similar to the former Google Code Search).'
       )
     },
+    { title: 'Screeps AI'
+    , contact: 'Daniel Latzer'
+    , skillLevel: 'beginner'
+    , skillLevelTo: 'expert'
+    , homepage: 'https://github.com/tourn/screeps-haskell'
+    , children: (
+        'An AI for the programmer MMO RTS sandbox game Screeps. Some basic GHCJS bindings already work, but are still quite rudimentary.'
+      )
+    },
 ];
 
 
