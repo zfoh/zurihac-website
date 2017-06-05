@@ -134,6 +134,45 @@ export const Registration = () => (
     </div>
 );
 
+export const Beginners = () => (
+    <div className={styles.container}>
+        <a id='beginners' />
+        <h1>Beginner projects</h1>
+
+        <p>We want to make the event accessible to Haskellers at all levels,
+           which is why we will have dedicated mentors, two codelab projects
+           and beginner-level Haskell exercises.
+        </p>
+
+        <p>You can identify mentors from the black Zurihac shirt. They welcome
+           any questions you may have, so please grab them if you have any issues
+           or questions.
+        </p>
+
+        <h2>Codelab: memegen</h2>
+        <p>
+           The memegen codelab is <a href="https://github.com/jaspervdj/haskell-beginners-projects/blob/master/memegen/codelab/memegen_codelab.md">available on GitHub</a>.
+           It guides you step by step through the implementation of a memegen server in Haskell.
+           Its intended audience are people that want to learn more about writing
+           web application servers in Haskell.
+        </p>
+
+        <h2>Codelab: webwatch</h2>
+        <p>
+          The <a href="https://github.com/jaspervdj/haskell-beginners-projects/blob/master/webwatch/codelab/webwatch_codelab.md">webwatch codelab</a> introduces
+          you to client-side HTTP programming with a command-line webpage
+          watcher utility that watches a webpage for links with a certain
+          text and will send a Slack message when one is found.
+        </p>
+
+        <h2>Beginner exercises</h2>
+        <p>
+          The <a href="https://github.com/opqdonut/haskell-exercises">beginner exercises</a> are for you
+          who is just starting out with Haskell and are interested in learning the fundamentals.
+          For reading material to supplement the exercises we recommend <a href="http://learnyouahaskell.com/">Learn you a Haskell</a>.
+        </p>
+   </div>
+);
 
 export const Venue = () => (
     <div className={styles.container}>

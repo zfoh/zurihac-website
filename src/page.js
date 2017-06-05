@@ -1,5 +1,5 @@
 import React from 'react';
-import {Header, About, Sponsors, Venue, Media, Registration, Contact, Conditions, Footer, Food} from './sections';
+import {Header, About, Sponsors, Venue, Beginners, Media, Registration, Contact, Conditions, Footer, Food} from './sections';
 import Projects from './projects'
 import Schedule from './schedule';
 import Speakers from './speakers';
@@ -15,6 +15,7 @@ export default () => (
         <Schedule />
         <Food />
         <Projects />
+        <Beginners />
         <Venue />
         <Media />
         <Registration />
