@@ -199,6 +199,9 @@ export const Venue = () => (
             8640 Rapperswil-Jona
         </div>
 
+        <p>
+            The venue is located right next to the lake, and weather is predicted to be superb (25°C, 77℉), so feel free to bring your swimming gear.
+        </p>
 
         <h2>Getting there</h2>
 
@@ -249,4 +252,32 @@ export const Media = () => (
             <VenueImage src={require('../static/venue-6.jpg')} />
         </div>
     </section>
+);
+
+
+export const Food = () => (
+    <div className={styles.container}>
+        <a id='food' />
+        <h1>Food</h1>
+
+        <div>
+            <p>
+                Lunch coupons are sold during registration. A coupon costs CHF 30 and includes lunch for three days. Vegetarian options are available during every lunch.
+            </p>
+
+            <ul>
+                <li><strong>Friday:</strong> Sliced Veal with Rösti</li>
+                <li><strong>Saturday:</strong> Pasta Italian Style</li>
+                <li><strong>Sunday:</strong> Sandwich</li>
+            </ul>
+
+            <p>
+                On Friday evening, a <a href="https://www.pizzamobil.ch/">mobile pizzeria</a> will visit the venue. Pizzas will cost around CHF 15.
+            </p>
+
+            <p>
+                For the BBQ on Saturday, plates, ketchup and mustard will be provided. Bread and around a hundred sausages are available on a first-come, first-served basis.
+            </p>
+        </div>
+    </div>
 );

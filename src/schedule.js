@@ -35,15 +35,12 @@ const DPoint = ({t, label}) => (
     </div>
 )
 
-const DRange = ({t0, t1, label, type}) => (
-    <div className={styles.dTalk + ' ' + (type ? styles['dt-' + type] : '')} style={{top: pct((t0 - dMin) / (dMax - dMin)), height: pct((t1 - t0) / (dMax - dMin))}}>
+const DRange = ({t0, t1, label, location}) => (
+    <div className={styles.dTalk + ' ' + (location ? styles['dt-' + location] : '')} style={{top: pct((t0 - dMin) / (dMax - dMin)), height: pct((t1 - t0) / (dMax - dMin))}}>
         <div className={styles.timeHeadline}>{label}</div>
-        <div className={styles.timeHours}>{fmtTime(t0)} – {fmtTime(t1)}</div>
+        <div className={styles.timeHours}>{fmtTime(t0)}<span className={styles.timeHoursTill}> – {fmtTime(t1)}</span></div>
     </div>
 )
-
-// <DRange t0={14} t1={14.3} label='Bas van Dijk, FP at LumiGuide' />
-
 
 export default () => (
     <div className={styles.container}>
@@ -51,8 +48,10 @@ export default () => (
         <h1>Schedule</h1>
 
         <p>
-            This schedule is provisional.
-            More details will be given prior to the start of the event.
+            All talks and keynotes take place in the <span className={styles.scheduleLegendAula}>aula (building 4)</span>.
+            Lunch is served
+            in the <span className={styles.scheduleLegendMensa}>mensa (building 4)</span>.
+            Pizza and BBQ will be consumed <span className={styles.scheduleLegendOutside}>outside (in front of building 1)</span>.
         </p>
 
         <section className={styles.schedule}>
@@ -63,24 +62,27 @@ export default () => (
 
             <Day day='Friday' date='June 9'>
                 <DPoint t={9} label='Doors open' />
-                <DRange t0={10} t1={11} label='Keynote talk' />
-                <DRange t0={11} t1={12} label='Project presentation' />
-                <DRange t0={12.3} t1={14} label='Lunch at HSR Mensa' type='lunch' />
-                <DRange t0={17} t1={18} label='Panel Discussion' />
-                <DRange t0={18} t1={21} label='BBQ or Hack & Pizza' type='lunch' />
+                <DRange t0={10} t1={11} label='Keynote: Neil Mitchell' location='aula' />
+                <DRange t0={11} t1={12} label='Project presentation' location='aula' />
+                <DRange t0={12.3} t1={14} label='Lunch' location='mensa' />
+                <DRange t0={16} t1={16.5} label='Talk: Mario Meili' location='aula' />
+                <DRange t0={16.5} t1={17} label='Talk: Cyrill Schenkel' location='aula' />
+                <DRange t0={17} t1={18} label='Keynote: Julie Moronuki' location='aula' />
+                <DRange t0={18} t1={21} label='Pizza' location='outside' />
             </Day>
 
             <Day day='Saturday' date='June 10'>
-                <DRange t0={10} t1={11} label='Keynote talk' />
-                <DRange t0={12} t1={14} label='Lunch at HSR Mensa' type='lunch' />
-                <DRange t0={17} t1={18} label='Keynote talk' />
-                <DRange t0={18} t1={21} label='BBQ or Hack & Pizza' type='lunch' />
+                <DRange t0={10} t1={11} label='Keynote: Stephen Diehl' location='aula' />
+                <DRange t0={12} t1={14} label='Lunch' location='mensa' />
+                <DRange t0={17} t1={18} label='Talk: Nikita Volkov' location='aula' />
+                <DRange t0={17} t1={18} label='Keynote: Simon Thompson' location='aula' />
+                <DRange t0={18} t1={21} label='BBQ' location='outside' />
             </Day>
 
             <Day day='Sunday' date='June 11'>
-                <DRange t0={10} t1={11} label='Keynote talk' />
-                <DRange t0={12} t1={14} label='Lunch at HSR Mensa' type='lunch' />
-                <DRange t0={15} t1={16} label='Project demos' />
+                <DRange t0={10} t1={11} label='Keynote: Edward Kmett' location='aula' />
+                <DRange t0={12} t1={14} label='Lunch' location='mensa' />
+                <DRange t0={15} t1={16} label='Project demos' location='aula' />
                 <DPoint t={17} label='End of event' />
             </Day>
         </section>
