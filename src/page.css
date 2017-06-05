@@ -575,16 +575,19 @@ svg {
 }
 
 .scheduleLegendAula {
+  white-space: nowrap;
   padding: 2px 4px;
   color: white;
   background-color: #1d9be7;
 }
 .scheduleLegendMensa {
+  white-space: nowrap;
   padding: 2px 4px;
   color: white;
   background-color: #980f3a;
 }
 .scheduleLegendOutside {
+  white-space: nowrap;
   padding: 2px 4px;
   color: white;
   background-color: #96860a;
