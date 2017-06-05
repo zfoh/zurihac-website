@@ -23,16 +23,6 @@ const projects = [
           'Haskell-Serbia is a Serbian haskell user group website. It is written in Yesod and has basic functionality for managing users and creating tutorials.'
       )
     },
-
-    { title: 'Hakyll'
-    , contact: 'Jasper Van der Jeugt'
-    , skillLevel: 'beginner'
-    , skillLevelTo: 'expert'
-    , homepage: 'https://jaspervdj.be/hakyll/'
-    , children: (
-        'Hakyll is a Haskell library for generating static sites, mostly aimed at small-to-medium sites and personal blogs. It is written in a very configurable way and uses an xmonad-like DSL for configuration.'
-      )
-    },
     { title: 'HaskellDO'
     , contact: 'Nikita Tchayka'
     , skillLevel: 'beginner'
