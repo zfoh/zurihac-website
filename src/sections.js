@@ -160,6 +160,9 @@ export const Venue = () => (
             8640 Rapperswil-Jona
         </div>
 
+        <p>
+            The venue is located right next to the lake, and weather is predicted to be superb (25°C, 77℉), so feel free to bring your swimming gear.
+        </p>
 
         <h2>Getting there</h2>
 
