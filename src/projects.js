@@ -132,7 +132,15 @@ const projects = [
         'Open, evolvable, consistent and efficient distributed systems (with an awful lot of Haskell code to hack, guaranteed fun for beginners and experts alike or your money back).'
       )
     },
-
+    { title: 'Kubernetes controller'
+    , contact: 'Thomas Koch'
+    , skillLevel: 'beginner'
+    , skillLevelTo: 'advanced'
+    , homepage: 'https://hackage.haskell.org/package/haskell-kubernetes'
+    , children: (
+        'I want to test writing a K8s controller in Haskell and compare the experience with Go. Bonus: Try to use Quickcheck to test K8s code.'
+      )
+    },
 ];
 
 
