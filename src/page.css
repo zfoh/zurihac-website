@@ -189,6 +189,12 @@ svg {
   margin: 0 6px -4px;
 }
 
+.speakerTimeAndPlace {
+  margin-bottom: 1em;
+  font-size: 18px;
+  font-weight: 500;
+}
+
 
 .sponsors {
   display: flex;
