@@ -11,7 +11,7 @@ const projects = [
     , skillLevelTo: 'advanced'
     , homepage: 'https://lambdahack.github.io'
     , children: (
-        'If there are any Haskell+Games(+SDL) people around, I\'d love to chat and brainstorm with you. Apart of that, I will be playtesting my ASCII roguelike game and I could really use some help. Also, if you\'d like to create your own world in the LambdaHack game engine, that can be accomplished within a single hackathon. Regarding sdl2-ttf, if anybody would like to join me, we could hack a PR that merges the two completely separate sets of Haskell bindings to the SDL2 True Type font library — there is goodwill of all the present and past maintainers of both packages.'
+        'ASCII roguelike game and LambdaHack game engine. Regarding sdl2-ttf, merge the two sets of Haskell bindings for the SDL2 True Type font library.'
       )
     },
     { title: 'Haskell-Serbia'
