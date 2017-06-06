@@ -131,6 +131,123 @@ const projects = [
         'I want to test writing a K8s controller in Haskell and compare the experience with Go. Bonus: Try to use Quickcheck to test K8s code.'
       )
     },
+    { title: 'Cabal'
+    , contact: 'Mikhail Glushenkov'
+    , skillLevel: 'advanced'
+    , skillLevelTo: 'expert'
+    , homepage: 'https://www.haskell.org/cabal/'
+    , children: (
+        'Common Architecture for Building Applications and Libraries.'
+      )
+    },
+    { title: 'Caledon'
+    , contact: 'Matthew Mirman'
+    , skillLevel: 'advanced'
+    , skillLevelTo: 'expert'
+    , homepage: 'https://github.com/mmirman/caledon'
+    , children: (
+        'Caledon is a higher order dependently typed logic programing language.'
+      )
+    },
+    { title: 'Cellular automata'
+    , contact: 'Siddharth Bhat'
+    , skillLevel: 'beginner'
+    , skillLevelTo: 'advanced'
+    , homepage: 'https://github.com/bollu/cellularautomata'
+    , children: (
+        'Encoding pretty cellular automata in Haskell.'
+      )
+    },
+    { title: 'Fedora Haskell Stackage LTS'
+    , contact: 'Jens Petersen'
+    , skillLevel: 'beginner'
+    , skillLevelTo: 'advanced'
+    , homepage: 'https://github.com/fedora-haskell/fedora-haskell-tools'
+    , children: (
+        'Building parts of Stackage LTS in Fedora Copr.'
+      )
+    },
+    { title: 'Foundation'
+    , contact: 'Vincent Hanquez'
+    , skillLevel: 'beginner'
+    , skillLevelTo: 'expert'
+    , homepage: 'https://github.com/haskell-foundation/foundation'
+    , children: (
+        'Modern Haskell prelude with batteries.'
+      )
+    },
+    { title: 'Foundation (networking)'
+    , contact: 'Nicolas Di Prima'
+    , skillLevel: 'advanced'
+    , skillLevelTo: 'advanced'
+    , homepage: 'https://github.com/haskell-foundation/foundation'
+    , children: (
+        'Network and network protocols for Haskell Foundation.'
+      )
+    },
+    { title: 'Girella and Opaleye'
+    , contact: 'Adam Bergmark'
+    , skillLevel: 'advanced'
+    , skillLevelTo: 'advanced'
+    , homepage: ''
+    , children: (
+        'Functional-relational framework using PostgreSQL.'
+      )
+    },
+    { title: 'Haskell IDE support'
+    , contact: 'Cyrill Schenkel'
+    , skillLevel: 'beginner'
+    , skillLevelTo: 'beginner'
+    , homepage: ''
+    , children: (
+        'Implement IDE features which help Haskell developers to be more efficient.'
+      )
+    },
+    { title: 'Pandoc'
+    , contact: 'Mauro Bieg'
+    , skillLevel: 'beginner'
+    , skillLevelTo: 'beginner'
+    , homepage: 'http://pandoc.org'
+    , children: (
+        'Document converter (from and to markdown, HTML, LaTeX, docx, ePUB and many more).'
+      )
+    },
+    { title: 'Rome'
+    , contact: 'Tommaso Piazza'
+    , skillLevel: 'beginner'
+    , skillLevelTo: 'advanced'
+    , homepage: 'https://github.com/blender/Rome'
+    , children: (
+        'Shared cache for build artifacts specific to iOS/MacOS/tvOS/watchOS development.'
+      )
+    },
+    { title: 'Sparkle'
+    , contact: 'Mathieu Boespflug'
+    , skillLevel: 'beginner'
+    , skillLevelTo: 'beginner'
+    , homepage: 'http://github.com/tweag/sparkle'
+    , children: (
+        'Run Haskell analytics apps on Apache Spark.'
+      )
+    },
+    { title: 'Spock'
+    , contact: 'Alexander Thiemann'
+    , skillLevel: 'beginner'
+    , skillLevelTo: 'expert'
+    , homepage: 'https://www.spock.li/'
+    , children: (
+        'Spock is a lightweight Haskell web framework inspired by Ruby\'s Sinatra.'
+      )
+    },
+    { title: 'Yi'
+    , contact: 'Dmitry Ivanov'
+    , skillLevel: 'beginner'
+    , skillLevelTo: 'expert'
+    , homepage: 'https://github.com/yi-editor/yi'
+    , children: (
+        'A library for writing yourself a text editor.'
+      )
+    },
 ];
 
 
