@@ -409,6 +409,17 @@ svg {
   align-items: center;
 }
 
+.mentorShirtImage {
+  display: block;
+  float: right;
+
+  @media (min-width: 600px) {
+    flex-direction: row;
+    width: calc(30% - 2px);
+    margin: 1em;
+  }
+}
+
 
 .talks {
   margin: 40px 0;

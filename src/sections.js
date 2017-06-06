@@ -138,6 +138,7 @@ export const Beginners = () => (
     <div className={styles.container}>
         <a id='beginners' />
         <h1>Beginner projects</h1>
+        <img className={styles.mentorShirtImage} src={require('../static/zurihac-black-tshirt.png')} alt='Mentor T-Shirt' />
 
         <p>We want to make the event accessible to Haskellers at all levels,
            which is why we will have dedicated mentors, two codelab projects
@@ -147,7 +148,7 @@ export const Beginners = () => (
         <p>You can identify mentors from the black Zurihac shirt. They welcome
            any questions you may have, so please grab them if you have any issues
            or questions.
-        </p>
+        </p> 
 
         <h2>Codelab: memegen</h2>
         <p>
