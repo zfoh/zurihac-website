@@ -248,6 +248,15 @@ const projects = [
         'A library for writing yourself a text editor.'
       )
     },
+    { title: 'Basic'
+    , contact: 'Luka Horvat, Nikola Henezi'
+    , skillLevel: 'beginner'
+    , skillLevelTo: 'expert'
+    , homepage: 'https://gitlab.com/haskell-hr/basic'
+    , children: (
+        'Database first database library with focus on: type safety, ease of use, flexibility and user friendly error messages'
+      )
+    },
 ];
 
 
