@@ -412,11 +412,12 @@ svg {
 .mentorShirtImage {
   display: block;
   float: right;
+  width: 40%;
+  margin: 1.6250em 0 1em 1.6250em;
 
-  @media (min-width: 600px) {
-    flex-direction: row;
-    width: calc(30% - 2px);
-    margin: 1em;
+  @media (min-width: 840px) {
+    width: 30%;
+    margin: 1.6250em 0 1em 3em;
   }
 }
 
