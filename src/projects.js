@@ -29,7 +29,7 @@ const projects = [
     , skillLevelTo: 'advanced'
     , homepage: 'http://haskell.do'
     , children: (
-        'haskell.do is a Haskell code editor, centered around interactive development. It\'s main goal is to help data science tasks be easy in Haskell, as inline plotting and fast development iterations.'
+        'haskell.do is a Haskell code editor, centered around interactive development. Its main goal is to help data science tasks be easy in Haskell, as inline plotting and fast development iterations.'
       )
     },
     { title: 'haskell-opencv'
