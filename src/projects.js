@@ -23,13 +23,13 @@ const projects = [
           'Haskell-Serbia is a Serbian haskell user group website. It is written in Yesod and has basic functionality for managing users and creating tutorials.'
       )
     },
-    { title: 'HaskellDO'
+    { title: 'haskell.do'
     , contact: 'Nikita Tchayka'
     , skillLevel: 'beginner'
     , skillLevelTo: 'advanced'
-    , homepage: 'https://github.com/theam/haskell-do'
+    , homepage: 'http://haskell.do'
     , children: (
-        'HaskellDO is a Haskell code editor, centered around interactive development. It\'s main goal is to help data science tasks be easy in Haskell, as inline plotting and fast development iterations.'
+        'haskell.do is a Haskell code editor, centered around interactive development. It\'s main goal is to help data science tasks be easy in Haskell, as inline plotting and fast development iterations.'
       )
     },
     { title: 'haskell-opencv'
