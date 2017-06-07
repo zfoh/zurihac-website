@@ -263,7 +263,7 @@ export const Food = () => (
 
         <div>
             <p>
-                Lunch coupons are sold during registration. A coupon costs CHF 30 and includes lunch for three days. Vegetarian options are available during every lunch.
+                Lunch coupons are sold during registration. A coupon costs CHF 30 and includes lunch for three days. Vegetarian options are available during every lunch. Of course, you are always free to go to nearby restaurants and/or supermarkets, like the past years.
             </p>
 
             <ul>
@@ -277,7 +277,7 @@ export const Food = () => (
             </p>
 
             <p>
-                For the BBQ on Saturday, plates, ketchup and mustard will be provided. Bread and around a hundred sausages are available on a first-come, first-served basis.
+                On Saturday evening, there is a bring-your-own meat BBQ. Meat (or vegetarian/vegan alternatives) can be obtained from nearby supermarkets. We will provide plates, ketchup and mustard, and a seed round of a hundred sausages.
             </p>
         </div>
     </div>
