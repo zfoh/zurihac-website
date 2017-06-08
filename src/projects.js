@@ -239,15 +239,6 @@ const projects = [
         'Spock is a lightweight Haskell web framework inspired by Ruby\'s Sinatra.'
       )
     },
-    { title: 'Yi'
-    , contact: 'Dmitry Ivanov'
-    , skillLevel: 'beginner'
-    , skillLevelTo: 'expert'
-    , homepage: 'https://github.com/yi-editor/yi'
-    , children: (
-        'A library for writing yourself a text editor.'
-      )
-    },
     { title: 'Basic'
     , contact: 'Luka Horvat, Nikola Henezi'
     , skillLevel: 'beginner'
