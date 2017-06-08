@@ -131,13 +131,13 @@ const projects = [
         'I want to test writing a K8s controller in Haskell and compare the experience with Go. Bonus: Try to use Quickcheck to test K8s code.'
       )
     },
-    { title: 'Cabal'
+    { title: 'Hackage/Cabal/cabal-install'
     , contact: 'Mikhail Glushenkov'
-    , skillLevel: 'advanced'
+    , skillLevel: 'beginner'
     , skillLevelTo: 'expert'
-    , homepage: 'https://www.haskell.org/cabal/'
+    , homepage: 'https://github.com/haskell/cabal/wiki/ZuriHac-2017'
     , children: (
-        'Common Architecture for Building Applications and Libraries.'
+        'Work on improving basic build tools and infrastructure: cabal-install, Cabal and Hackage.'
       )
     },
     { title: 'Caledon'
