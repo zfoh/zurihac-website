@@ -248,6 +248,15 @@ const projects = [
         'Database first database library with focus on: type safety, ease of use, flexibility and user friendly error messages'
       )
     },
+    { title: 'Yampa'
+    , contact: 'Ivan Perez'
+    , skillLevel: 'beginner'
+    , skillLevelTo: 'expert'
+    , homepage: 'https://gitlab.com/ivanperez-keera/Yampa'
+    , children: (
+        'A Haskell FRP implementation that has been used for commercial games'
+      )
+    },
 ];
 
 
