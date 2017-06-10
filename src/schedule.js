@@ -73,7 +73,7 @@ export default () => (
             <Day day='Saturday' date='June 10'>
                 <DRange t0={10} t1={11} label='Keynote: Stephen Diehl' location='aula' />
                 <DRange t0={12} t1={14} label='Lunch' location='mensa' />
-                <DRange t0={17} t1={18} label='Talk: Nikita Volkov' location='aula' />
+                <DRange t0={16} t1={17} label='Talk: Nikita Volkov' location='aula' />
                 <DRange t0={17} t1={18} label='Keynote: Simon Thompson' location='aula' />
                 <DRange t0={18} t1={21} label='BBQ' location='outside' />
             </Day>
