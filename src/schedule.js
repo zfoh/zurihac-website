@@ -62,24 +62,22 @@ export default () => (
 
             <Day day='Friday' date='June 9'>
                 <DPoint t={9} label='Doors open' />
-                <DRange t0={10} t1={11} label='Keynote: Neil Mitchell' location='aula' />
+                <DRange t0={10} t1={11} label='Keynote' location='aula' />
                 <DRange t0={11} t1={12} label='Project presentation' location='aula' />
                 <DRange t0={12.3} t1={14} label='Lunch' location='mensa' />
-                <DRange t0={16} t1={17} label='Talk: Mario Meili & Cyrill Schenkel' location='aula' />
-                <DRange t0={17} t1={18} label='Keynote: Julie Moronuki' location='aula' />
+                <DRange t0={14} t1={15} label='Keynote' location='aula' />
                 <DRange t0={18} t1={21} label='Pizza' location='outside' />
             </Day>
 
             <Day day='Saturday' date='June 10'>
-                <DRange t0={10} t1={11} label='Keynote: Stephen Diehl' location='aula' />
+                <DRange t0={10} t1={11} label='Keynote' location='aula' />
                 <DRange t0={12} t1={14} label='Lunch' location='mensa' />
-                <DRange t0={16} t1={17} label='Talk: Nikita Volkov' location='aula' />
-                <DRange t0={17} t1={18} label='Keynote: Simon Thompson' location='aula' />
+                <DRange t0={14} t1={15} label='Keynote' location='aula' />
                 <DRange t0={18} t1={21} label='BBQ' location='outside' />
             </Day>
 
             <Day day='Sunday' date='June 11'>
-                <DRange t0={10} t1={11} label='Keynote: Edward Kmett' location='aula' />
+                <DRange t0={10} t1={11} label='Keynote' location='aula' />
                 <DRange t0={12} t1={14} label='Lunch' location='mensa' />
                 <DRange t0={15} t1={16} label='Project demos' location='aula' />
                 <DPoint t={17} label='End of event' />
