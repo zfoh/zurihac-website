@@ -116,13 +116,15 @@ export const Registration = () => (
         <a id='registration' />
         <h1>Registration</h1>
 
+        {/*
         <a href="/register" className={styles.registrationForm}>
             To the registration form
         </a>
+        */}
 
         <p>
-            Even though this year we have space for up to 300 people, you should hurry up.
-            The places are gone quickly!
+            Registration will open on the 6th of December.  We have up to 300
+            places available.
         </p>
         <p>
             Once we reach maximum capacity you will be queued into a wait list.

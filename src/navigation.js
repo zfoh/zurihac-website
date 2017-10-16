@@ -16,6 +16,7 @@ export default () => (
                     <a className={styles.navItem} href='#projects'>Projects</a>
                     <a className={styles.navItem} href='#beginners'>Beginners</a>
                     <a className={styles.navItem} href='#venue'>Venue</a>
+                    <a className={styles.navItem} href='#registration'>Registration</a>
                     <a className={styles.navItem} href='#contact'>Contact</a>
                 </div>
             </div>
