@@ -56,7 +56,7 @@ export const Footer = () => (
             <div>
                 <a className={styles.footerContactLink} href='mailto:tomas.carnecky@gmail.com'>tomas.carnecky@gmail.com</a>
                 <div className={styles.footerLinkSeparator} />
-                <a className={styles.footerContactLink} href='https://github.com/wereHamster/zurihac-2017-website'>website source</a>
+                <a className={styles.footerContactLink} href='https://github.com/wereHamster/zurihac-website'>website source</a>
             </div>
         </div>
     </footer>
