@@ -6,6 +6,6 @@ steps:
   args: [ 'yarn', 'run', 'build' ]
 
 - name: 'gcr.io/cloud-builders/gsutil'
-  args: ['-m', '-h', 'Cache-Control: max-age=31536000', 'rsync', '-r', '-x', '.*index.html', 'build/', 'gs://zurihac.info/']
+  args: ['-m', '-h', 'Cache-Control: max-age=31536000', 'rsync', '-r', '-x', '.*index.html', 'build/', 'gs://zurihac.info/2017/']
 - name: 'gcr.io/cloud-builders/gsutil'
-  args: ['-m', '-h', 'Cache-Control: no-cache', '-h', 'Content-Type: text/html; charset=utf-8', 'cp', 'build/index.html', 'gs://zurihac.info/index.html']
+  args: ['-m', '-h', 'Cache-Control: no-cache', '-h', 'Content-Type: text/html; charset=utf-8', 'cp', 'build/index.html', 'gs://zurihac.info/2017/index.html']

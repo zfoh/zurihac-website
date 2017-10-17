@@ -3,5 +3,5 @@ set -ex
 
 rm -rf build
 yarn run build
-gsutil -m -h 'Cache-Control: max-age=31536000' rsync -dr -x '.*index.html' build/ gs://zurihac.info/
-gsutil -m -h 'Cache-Control: no-cache' -h 'Content-Type: text/html; charset=utf-8' cp build/index.html gs://zurihac.info/index.html
+gsutil -m -h 'Cache-Control: max-age=31536000' rsync -dr -x '.*index.html' build/ gs://zurihac.info/2017/
+gsutil -m -h 'Cache-Control: no-cache' -h 'Content-Type: text/html; charset=utf-8' cp build/index.html gs://zurihac.info/2017/index.html
