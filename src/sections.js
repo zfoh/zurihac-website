@@ -5,7 +5,7 @@ import styles from './page.css';
 
 export const Header = () => (
     <header className={styles.header}>
-        <img className={styles.headerLogo} alt="ZuriHac 2017, 9-11 June" src={require('../static/header-logo.svg')} />
+        <img className={styles.headerLogo} alt="ZuriHac 2018, 8-10 June" src={require('../static/header-logo.svg')} />
     </header>
 );
 
@@ -15,16 +15,16 @@ export const About = () => (
         <a id='about' />
         <h1>About</h1>
         <p>
-            Beginning of June 2017, the <a href='https://www.meetup.com/HaskellerZ/'>Zurich Haskell Meetup Group</a> will organize ZuriHac 2017,
+            Beginning of June 2018, the <a href='https://www.meetup.com/HaskellerZ/'>Zurich Haskell Meetup Group</a> will organize ZuriHac 2018,
             a three day <a href='https://www.haskell.org/'>Haskell</a> Hackathon hosted at
             the <a href='https://www.hsr.ch'>HSR Hochschule für Technik Rapperswil</a>. This
-            is the sixth Haskell Hackathon organized by the Zurich Haskell Meetup Group
-            and the first one which is hosted at the HSR. A fantastic venue
-            located right at lake Zurich and providing space for 300 participants.
+            is the seventh Haskell Hackathon organized by the Zurich Haskell Meetup Group
+            and the second one which is hosted at the HSR. A fantastic venue
+            located right at lake Zurich and providing space for over 300 participants.
         </p>
 
         <p>
-            The Haskell Hackathon is an international, grassroots collaborative coding festival
+            The Haskell Hackathon is a free (as in beer), international, grassroots collaborative coding festival
             whose goal is to expand the community
             and
             to build and improve Haskell libraries, tools, and infrastructure.
@@ -41,7 +41,7 @@ export const About = () => (
             This event is open to any experience level, from beginners to gurus.
             In fact, one of the goals is to bring beginners in contact with
             experts so that the former can get a quick start in the Haskell
-            community. We will have a dedicated beginners' track, and there are
+            community. This year, we will have a dedicated beginners' course, and
             going to be mentors on site whom you can directly approach during the
             whole event with any Haskell-related question you have.
         </p>
@@ -52,7 +52,7 @@ export const About = () => (
 export const Footer = () => (
     <footer className={styles.footer}>
         <div className={styles.innerFooter}>
-            © 2017 ZuriHac Organization Committee
+            © 2017-2018 ZuriHac Organization Committee
             <div>
                 <a className={styles.footerContactLink} href='mailto:tomas.carnecky@gmail.com'>tomas.carnecky@gmail.com</a>
                 <div className={styles.footerLinkSeparator} />
@@ -69,9 +69,11 @@ export const Sponsors = () => (
             <a href="http://hub.digitalasset.com/events/zurich/zurihac" target="_blank">
               <img className={'lazyload ' + styles.sponsor} alt="Digital Asset Logo" data-src={require('../static/digitalasset-big-blue.png')} />
             </a>
+            {/*
             <a href="https://developers.google.com/open-source/" target="_blank">
               <img className={'lazyload ' + styles.sponsor} alt="Google Open Source Programs Office, Google Logo" data-src={require('../static/google.png')} />
             </a>
+            */}
             <a href="https://www.hsr.ch" target="_blank">
               <img className={'lazyload ' + styles.sponsor} alt="HSR Logo" data-src={require('../static/hsr.jpg')} />
             </a>
@@ -92,7 +94,7 @@ export const Contact = () => (
             Before the event, and in particular during the event, you can
             find us and other participants at <a href="https://slack.zurihac.info">Zurihac Slack</a> or on the <strong>#zurihac</strong> channel on <a href="https://freenode.net/">freenode</a> (open in your <a href="irc://freenode.net/#zurihac">IRC client</a>.
             In addition, feel free to post on Twitter and Google+ using
-            the hashtag <strong>#ZuriHac2017</strong>.
+            the hashtag <strong>#ZuriHac2018</strong>.
         </p>
     </div>
 );
@@ -114,13 +116,15 @@ export const Registration = () => (
         <a id='registration' />
         <h1>Registration</h1>
 
+        {/*
         <a href="/register" className={styles.registrationForm}>
             To the registration form
         </a>
+        */}
 
         <p>
-            Even though this year we have space for up to 300 people, you should hurry up.
-            The places are gone quickly!
+            Registration will open on the 6th of December.  We have up to 300
+            places available.
         </p>
         <p>
             Once we reach maximum capacity you will be queued into a wait list.
@@ -137,40 +141,28 @@ export const Registration = () => (
 export const Beginners = () => (
     <div className={styles.container}>
         <a id='beginners' />
-        <h1>Beginner projects</h1>
+        <h1>Beginner track</h1>
         <img className={styles.mentorShirtImage} src={require('../static/zurihac-black-tshirt.png')} alt='Mentor T-Shirt' />
 
         <p>We want to make the event accessible to Haskellers at all levels,
-           which is why we will have dedicated mentors, two codelab projects
+           which is why we will have dedicated mentors, and an introductory
+           course by Julie Moronuki.
            and beginner-level Haskell exercises.
         </p>
 
-        <p>You can identify mentors from the black Zurihac shirt. They welcome
-           any questions you may have, so please grab them if you have any issues
-           or questions.
-        </p> 
-
-        <h2>Codelab: memegen</h2>
         <p>
-           The memegen codelab is <a href="https://github.com/jaspervdj/haskell-beginners-projects/blob/master/memegen/codelab/memegen_codelab.md">available on GitHub</a>.
-           It guides you step by step through the implementation of a memegen server in Haskell.
-           Its intended audience are people that want to learn more about writing
-           web application servers in Haskell.
+            You can identify mentors from the black Zurihac shirt. They welcome
+            any questions you may have, so please grab them if you have any issues
+            or questions.
         </p>
 
-        <h2>Codelab: webwatch</h2>
+        <h2>Beginner course</h2>
+        <img className={styles.beginnerCourseAvatar} src={require('../static/julie.jpg')} alt='Julie Moronuki' />
         <p>
-          The <a href="https://github.com/jaspervdj/haskell-beginners-projects/blob/master/webwatch/codelab/webwatch_codelab.md">webwatch codelab</a> introduces
-          you to client-side HTTP programming with a command-line webpage
-          watcher utility that watches a webpage for links with a certain
-          text and will send a Slack message when one is found.
+            <a href="https://twitter.com/argumatronic">Julie Moronuki</a>, the author of both <a href="http://haskellbook.com/">Haskell Programming from first principles</a> and <a href="https://joyofhaskell.com/">The Joy of Haskell</a>, has kindly agreed to teach a beginners course for people who are just getting started with Haskell.
         </p>
-
-        <h2>Beginner exercises</h2>
         <p>
-          The <a href="https://github.com/opqdonut/haskell-exercises">beginner exercises</a> are for you
-          who is just starting out with Haskell and are interested in learning the fundamentals.
-          For reading material to supplement the exercises we recommend <a href="http://learnyouahaskell.com/">Learn you a Haskell</a>.
+            More details on this (free, like the rest of ZuriHac!) course will be announced.  We hope that this will make the event even more attractive to beginners than last year!
         </p>
    </div>
 );
@@ -266,18 +258,22 @@ export const Food = () => (
                 Lunch coupons are sold during registration. A coupon costs CHF 30 and includes lunch for three days. Vegetarian options are available during every lunch. Of course, you are always free to go to nearby restaurants and/or supermarkets, like the past years.
             </p>
 
+            <p>The exact menu will be announced here before the event.</p>
+
+            {/*
             <ul>
                 <li><strong>Friday:</strong> Sliced Veal with Rösti</li>
                 <li><strong>Saturday:</strong> Pasta Italian Style</li>
                 <li><strong>Sunday:</strong> Sandwich</li>
             </ul>
+            */}
 
             <p>
                 On Friday evening, a <a href="https://www.pizzamobil.ch/">mobile pizzeria</a> will visit the venue. Pizzas will cost around CHF 15.
             </p>
 
             <p>
-                On Saturday evening, there is a bring-your-own meat BBQ. Meat (or vegetarian/vegan alternatives) can be obtained from nearby supermarkets. We will provide plates, ketchup and mustard, and a seed round of a hundred sausages.
+                On Saturday evening, there is a bring-your-own meat BBQ. Meat (or vegetarian/vegan alternatives) can be obtained from nearby supermarkets.
             </p>
         </div>
     </div>
