@@ -13,6 +13,15 @@ const projects = [
     , children: (
         'opencv is a Haskell library providing a binding to the OpenCV-3.x C++ library. It binds directly with the C++ API using the inline-c Haskell library.'
       )
+    },
+    { title: 'Frege - a Haskell for Java Programmers'
+    , contact: 'Dierk König'
+    , skillLevel: 'beginner'
+    , skillLevelTo: 'expert'
+    , homepage: 'http://frege-lang.org/'
+    , children: (
+        'Learn how to use Haskell in your Java projects, incl. type-safe interaction with Java libraries.'
+      )
     }
 ];
 
