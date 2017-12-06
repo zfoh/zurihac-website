@@ -66,6 +66,9 @@ export const Sponsors = () => (
     <div>
         <h2>Supported by</h2>
         <div className={styles.sponsors}>
+            <a href="https://www.adjoint.io" target="_blank">
+              <img className={'lazyload ' + styles.sponsor} alt="Adjoint Logo" data-src={require('../static/adjoint.png')} />
+            </a>
             <a href="http://hub.digitalasset.com/events/zurich/zurihac" target="_blank">
               <img className={'lazyload ' + styles.sponsor} alt="Digital Asset Logo" data-src={require('../static/digitalasset-big-blue.png')} />
             </a>
