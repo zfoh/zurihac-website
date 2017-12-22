@@ -244,6 +244,18 @@ export const Media = () => (
     </section>
 );
 
+export const Cpp = () => (
+    <div className={styles.container}>
+        <a id='cpp' />
+        <h1>C++ Standardisation Committee</h1>
+
+        <div>
+            <p>
+                The HSR is also hosting the spring session of the C++ standardisation committee from 04.06.2018 - 09.06.2018. In order to promote the cross-fertilisation of ideas between the two communities, the attendees of the C++ standardisation committee meeting will be welcome to attend the ZuriHac2018 keynote speeches and the Pizza dinner on Friday 08.06.2017. In turn, ZuriHac2018 attendees are welcome to take a peek at the meetings of the C++ standardisation committee. For more information on the C++ standardisation committee meeting, please refer to <a href="http://open-std.org/JTC1/SC22/WG21/docs/papers/2017/n4673.pdf">this link</a>. In case you plan on attending a session, please send a short email to Peter Sommerlad (peter.sommerlad at hsr.ch).
+            </p>
+        </div>
+    </div>
+);
 
 export const Food = () => (
     <div className={styles.container}>
