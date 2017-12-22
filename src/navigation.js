@@ -6,7 +6,7 @@ export default () => (
     <div id='nav-bar-container' className={styles.navBarContainer}>
         <div className={styles.navBarSpacer} />
         <nav id='nav-bar' className={styles.navBar}>
-            <div className={styles.container}>
+            <div className={styles.container} style={{maxWidth: 'initial'}}>
                 <div className={styles.navBarInner}>
                 { // TODO (SM): add some means to move to the top of the page.
                   //<a className={styles.navItem} href='#about'>About</a>

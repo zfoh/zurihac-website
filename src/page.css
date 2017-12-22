@@ -142,6 +142,9 @@ svg {
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
+  @media (min-width: 700px) {
+    flex-wrap: nowrap;
+  }
 }
 .navItem {
   margin: 0 7px;
