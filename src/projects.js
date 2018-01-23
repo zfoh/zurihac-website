@@ -22,6 +22,15 @@ const projects = [
     , children: (
         'Learn how to use Haskell in your Java projects, incl. type-safe interaction with Java libraries.'
       )
+    },
+    { title: 'arithmoi'
+    , contact: 'Andrew Lelechenko'
+    , skillLevel: 'beginner'
+    , skillLevelTo: 'expert'
+    , homepage: 'https://github.com/cartazio/arithmoi'
+    , children: (
+        'arithmoi is a Haskell library for number theory: modular arithmetic, primes, elliptic curves, etc. It is also an excellent tool for Project Euler.'
+      )
     }
 ];
 
