@@ -154,7 +154,7 @@ export const Beginners = () => (
         </p>
 
         <h2>Beginner course</h2>
-        <img className={styles.beginnerCourseAvatar} src={require('../static/julie.jpg')} alt='Julie Moronuki' />
+        <img className={styles.beginnerCourseAvatar} src={require('../static/speakers/julie.jpg')} alt='Julie Moronuki' />
         <p>
             <a href="https://twitter.com/argumatronic">Julie Moronuki</a>, the author of both <a href="http://haskellbook.com/">Haskell Programming from first principles</a> and <a href="https://joyofhaskell.com/">The Joy of Haskell</a>, has kindly agreed to teach a beginners course for people who are just getting started with Haskell.
         </p>
