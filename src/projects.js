@@ -31,6 +31,15 @@ const projects = [
     , children: (
         'arithmoi is a Haskell library for number theory: modular arithmetic, primes, elliptic curves, etc. It is also an excellent tool for Project Euler.'
       )
+    },
+    { title: 'massiv'
+    , contact: 'Alexey Kuleshevich'
+    , skillLevel: 'beginner'
+    , skillLevelTo: 'expert'
+    , homepage: 'https://github.com/lehins/massiv'
+    , children: (
+        'massiv is a Haskell library for manipulating multi-dimensional Arrays. It features fusion, stencils and parallel computation.'
+      )
     }
 ];
 
