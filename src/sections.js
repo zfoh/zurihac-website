@@ -72,11 +72,9 @@ export const Sponsors = () => (
             <a href="http://hub.digitalasset.com/events/zurich/zurihac" target="_blank">
               <img className={'lazyload ' + styles.sponsor} alt="Digital Asset Logo" data-src={require('../static/digitalasset-big-blue.png')} />
             </a>
-            {/*
             <a href="https://developers.google.com/open-source/" target="_blank">
               <img className={'lazyload ' + styles.sponsor} alt="Google Open Source Programs Office, Google Logo" data-src={require('../static/google.png')} />
             </a>
-            */}
             <a href="https://www.hsr.ch" target="_blank">
               <img className={'lazyload ' + styles.sponsor} alt="HSR Logo" data-src={require('../static/hsr.jpg')} />
             </a>
