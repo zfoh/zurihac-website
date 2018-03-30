@@ -89,7 +89,9 @@ export const Contact = () => (
         <h1>Contact</h1>
         <p>
             If you have any questions before the event, please reach out
-            to <a href='mailto:m@jaspervdj.be'>Jasper Van der Jeugt</a> or <a href='mailto:iridcode+zurihac@gmail.com'>Simon Meier</a>.
+            to <a href='mailto:m@jaspervdj.be'>Jasper Van der Jeugt</a>,
+            <a href='mailto:iridcode+zurihac@gmail.com'>Simon Meier</a>
+            or <a href='mailto:farhad.mehta@hsr.ch'>Farhad Mehta</a>.
         </p>
         <p>
             Before the event, and in particular during the event, you can
