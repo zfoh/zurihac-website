@@ -15,12 +15,15 @@ export const About = () => (
         <a id='about' />
         <h1>About</h1>
         <p>
-            Beginning of June 2018, the <a href='https://www.meetup.com/HaskellerZ/'>Zurich Haskell Meetup Group</a> will organize ZuriHac 2018,
-            a three day <a href='https://www.haskell.org/'>Haskell</a> Hackathon hosted at
-            the <a href='https://www.hsr.ch'>HSR Hochschule für Technik Rapperswil</a>. This
-            is the seventh Haskell Hackathon organized by the Zurich Haskell Meetup Group
-            and the second one which is hosted at the HSR. A fantastic venue
-            located right at lake Zurich and providing space for over 300 participants.
+            Beginning of June 2018, the
+            <a href='http://zfoh.ch'>Zürich Friends of Haskell</a> association
+            will organize ZuriHac 2018,
+            a three day <a href='https://www.haskell.org/'>Haskell</a> Hackathon
+            hosted at the <a href='https://www.hsr.ch'>HSR Hochschule für
+            Technik Rapperswil</a>. This is the seventh Haskell Hackathon
+            organized in Zürich and and the second one which is hosted at the
+            HSR. A fantastic venue located right at lake Zürich and providing
+            space for over 300 participants.
         </p>
 
         <p>
