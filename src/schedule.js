@@ -66,6 +66,7 @@ export default () => (
                 <DRange t0={11} t1={12} label='Project presentation' location='aula' />
                 <DRange t0={12.3} t1={14} label='Lunch' location='mensa' />
                 <DRange t0={14} t1={15} label='Keynote' location='aula' />
+                <DRange t0={15} t1={18} label='Beginner track' location='???' />
                 <DRange t0={18} t1={21} label='Pizza' location='outside' />
             </Day>
 
@@ -73,6 +74,7 @@ export default () => (
                 <DRange t0={10} t1={11} label='Keynote' location='aula' />
                 <DRange t0={12} t1={14} label='Lunch' location='mensa' />
                 <DRange t0={14} t1={15} label='Keynote' location='aula' />
+                <DRange t0={15} t1={18} label='Beginner track' location='???' />
                 <DRange t0={18} t1={21} label='BBQ' location='outside' />
             </Day>
 
