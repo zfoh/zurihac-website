@@ -81,6 +81,9 @@ export const Sponsors = () => (
             <a href="https://www.hsr.ch" target="_blank">
               <img className={'lazyload ' + styles.sponsor} alt="HSR Logo" data-src={require('../static/hsr.jpg')} />
             </a>
+            <a href="https://www.tweag.io" target="_blank">
+              <img className={'lazyload ' + styles.sponsor} alt="Tweag Logo" data-src={require('../static/tweag.png')} />
+            </a>
         </div>
     </div>
 );
