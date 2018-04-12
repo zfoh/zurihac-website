@@ -1,6 +1,6 @@
 # ZuriHac 2017 website
 
-Live on https://zurihac.info
+Live on https://2018.zurihac.info
 
 You need nodejs and yarn to run the website locally. If you have nix installed
 you can use `nix-shell` to switch into a shell with `yarn` available.

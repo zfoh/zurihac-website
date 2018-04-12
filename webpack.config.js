@@ -15,7 +15,7 @@ function resolveApp(relativePath) {
 const isProduction = process.env.NODE_ENV === 'production' || !!process.env.CI;
 process.env.NODE_ENV = isProduction ? 'production' : 'development';
 
-const publicPath = isProduction ? 'https://zurihac.info/' : '/';
+const publicPath = isProduction ? 'https://2018.zurihac.info/' : '/';
 
 const productionPlugins = [
     new webpack.DefinePlugin({'process.env.NODE_ENV': JSON.stringify(process.env.NODE_ENV)}),
