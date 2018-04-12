@@ -98,7 +98,7 @@ export const Contact = () => (
         </p>
         <p>
             Before the event, and in particular during the event, you can
-            find us and other participants at <a href="https://slack.zurihac.info">Zurihac Slack</a> or on the <strong>#zurihac</strong> channel on <a href="https://freenode.net/">freenode</a> (open in your <a href="irc://freenode.net/#zurihac">IRC client</a>.
+            find us and other participants on <a href="https://groups.google.com/d/forum/zurihac2018-attendees">our (attendees only) mailing list</a>, the <a href="https://slack.zurihac.info">Zurihac Slack</a> or on the <strong>#zurihac</strong> channel on <a href="https://freenode.net/">freenode</a> (open in your <a href="irc://freenode.net/#zurihac">IRC client</a>.
             In addition, feel free to post on Twitter and Google+ using
             the hashtag <strong>#ZuriHac2018</strong>.
         </p>
