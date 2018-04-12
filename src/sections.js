@@ -290,3 +290,26 @@ export const Food = () => (
         </div>
     </div>
 );
+
+export const WhoAreWe = () => (
+    <div className={styles.container}>
+        <a id='who-are-we' />
+        <h1>Who are we?</h1>
+        <p>
+            Organizing ZuriHac would not be possible without the help of all
+            volunteers involved.
+        </p>
+        <ul>
+            <li><strong>Main Organizers</strong>: Jasper Van der Jeugt, Farhad Mehta, Simon Meier</li>
+            <li><strong>Beginner Track</strong>: Nicolas Gagliani, Martin Huschenbett</li>
+            <li><strong>GHC DevOps Track</strong>: Andreas Herrmann, Niklas Hambüchen</li>
+            <li><strong>Website</strong>: Tomas Carnecky</li>
+            <li><strong>T-Shirts</strong>: Carl Baatz</li>
+            <li><strong>Sponsoring</strong>: Arvin Moezzi, Ivan Kristo</li>
+            <li><strong>Statistics</strong>: Gleb Peregud</li>
+            <li><strong>Scala Community Liaison</strong>: Mario Pastorelli</li>
+            <li><strong>HSR Location and Facilities</strong>: Ingrid Vettiger, Farhad Mehta</li>
+            <li><strong>Food and Beverages</strong>: Niklas Hambüchen</li>
+        </ul>
+    </div>
+);
