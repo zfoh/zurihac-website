@@ -40,6 +40,15 @@ const projects = [
     , children: (
         'massiv is a Haskell library for manipulating multi-dimensional Arrays. It features fusion, stencils and parallel computation.'
       )
+    },
+    { title: 'http2-client-grpc'
+    , contact: 'Lucas DiCioccio'
+    , skillLevel: 'advanced'
+    , skillLevelTo: 'expert'
+    , homepage: 'https://github.com/lucasdicioccio/http2-client-grpc'
+    , children: (
+        'A native gRPC client for Haskell. Needs some updating to a more recent proto-lens, helpers, and some CI-runnable examples.'
+      )
     }
 ];
 
