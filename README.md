@@ -1,4 +1,4 @@
-# ZuriHac 2017 website
+# ZuriHac 2018 website
 
 Live on https://2018.zurihac.info
 
