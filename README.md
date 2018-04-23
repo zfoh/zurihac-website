@@ -46,8 +46,4 @@ Try to provide a short description of the person, in third-person tense.
 
 ## Deployment
 
-The master branch is automatically deployed after each push (using Google Cloud
-Container Builder, see the deploy.yaml file in the root of the repository).
-
-Manual deployment is possible if you have access to the gs://zurihac.info Google
-Storage bucket. Use the `script/deploy` shell script.
+The master branch is automatically deployed after each push (courtesy of [netlify.com](https://netlify.com)).
