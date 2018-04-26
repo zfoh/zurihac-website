@@ -5,6 +5,7 @@ var HtmlWebpackPlugin = require('html-webpack-plugin');
 var cssnext = require("postcss-cssnext");
 var ExtractTextPlugin = require('extract-text-webpack-plugin');
 var StaticSiteGeneratorPlugin = require('static-site-generator-webpack-plugin');
+var CopyWebpackPlugin = require('copy-webpack-plugin');
 
 
 var appDirectory = fs.realpathSync(process.cwd());
@@ -25,7 +26,11 @@ const productionPlugins = [
       output: { screw_ie8: true, comments: false },
     }),
     new ExtractTextPlugin('static/[name].[hash:8].css'),
-    new StaticSiteGeneratorPlugin('site', ['/'])
+    new StaticSiteGeneratorPlugin('site', ['/']),
+    new CopyWebpackPlugin([
+      { from: 'static/register/index.html', to: 'register/index.html' },
+      { from: 'static/favicon.ico', to: 'favicon.ico' }
+    ])
 ]
 
 const developmentPlugins = [
