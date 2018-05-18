@@ -15,8 +15,7 @@ export const About = () => (
         <a id='about' />
         <h1>About</h1>
         <p>
-            Beginning of June 2018, the
-            <a href='http://zfoh.ch'>Zürich Friends of Haskell</a> association
+            Beginning of June 2018, the <a href='http://zfoh.ch'>Zürich Friends of Haskell</a> association
             will organize ZuriHac 2018,
             a three day <a href='https://www.haskell.org/'>Haskell</a> Hackathon
             hosted at the <a href='https://www.hsr.ch'>HSR Hochschule für
