@@ -190,9 +190,7 @@ export const GHCDevOps = () => (
             Long-time GHC contributor <a href="https://twitter.com/TacticalGrace">Manuel Chakravarty</a> will be present, and we'll have a few talks about GHC internals.
         </p>
         <p>
-            If you are interested, then please consider filling out
-            <a href="https://goo.gl/forms/1y6vnwuzWk1v86nB2">this poll</a> to
-            help the track organizers prepare.
+            If you are interested, then please consider filling out <a href="https://goo.gl/forms/1y6vnwuzWk1v86nB2">this poll</a> to help the track organizers prepare.
         </p>
    </div>
 );
