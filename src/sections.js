@@ -178,13 +178,15 @@ export const GHCDevOps = () => (
         <a id='ghcdevops' />
         <h1>GHC DevOps track</h1>
         <p>
-            It's hard to overstate how important GHC is to the Haskell
-            ecosystem.  That's why we are extremely proud that we will have a
-            special GHC DevOps track at ZuriHac 2018. Some GHC contributors will
-            be present to help you find your way around the projects, and there
-            will be hacking sessions to improve the tooling in particular.
+            It's hard to overstate how important GHC is to the Haskell ecosystem.  That's why we are extremely proud that we will have a special GHC DevOps track at ZuriHac 2018.
         </p>
-
+        <p>
+            This track is all about getting new contributors into GHC's code and the surrounding tooling.  You do not need to bring any experience in working on GHC, we will introduce you to it and show that working on GHC is not as hard as you might expect.
+        </p>
+        <p>
+            Some GHC contributors will be present to help you find your way around the projects, and there
+will be hacking sessions to improve the tooling in particular.
+        </p>
         <img className={styles.beginnerCourseAvatar} src={require('../static/speakers/manuel-chakravarty.jpg')} alt='Manuel Chakravarty' />
         <p>
             Long-time GHC contributor <a href="https://twitter.com/TacticalGrace">Manuel Chakravarty</a> will be present, and we'll have a few talks about GHC internals.
@@ -194,6 +196,7 @@ export const GHCDevOps = () => (
         </p>
    </div>
 );
+
 export const Venue = () => (
     <div className={styles.container}>
         <a id='venue' />
