@@ -22,7 +22,7 @@ export const About = () => (
             Technik Rapperswil</a>. This is the seventh Haskell Hackathon
             organized in Zürich and and the second one which is hosted at the
             HSR. A fantastic venue located right at lake Zürich and providing
-            space for over 300 participants.
+            space for 400 participants.
         </p>
 
         <p>
@@ -44,7 +44,7 @@ export const About = () => (
             In fact, one of the goals is to bring beginners in contact with
             experts so that the former can get a quick start in the Haskell
             community. This year, we will have a dedicated beginners' course, and
-            going to be mentors on site whom you can directly approach during the
+            there will be mentors on site whom you can directly approach during the
             whole event with any Haskell-related question you have.
         </p>
     </div>
