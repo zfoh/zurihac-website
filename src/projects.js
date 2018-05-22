@@ -49,7 +49,392 @@ const projects = [
     , children: (
         'A native gRPC client for Haskell. Needs some updating to a more recent proto-lens, helpers, and some CI-runnable examples.'
       )
-    }
+    },
+
+    { title: 'Labyrinth'
+    , contact: 'Leon Coto Rodriguez'
+    , skillLevel: 'advanced'
+    , skillLevelTo: 'advanced'
+    , homepage: 'https://github.com/grancalavera/labyrinth'
+    , children: (
+        "WIP: A clone of Ravensburger's Labyrinth."
+      )
+    },
+    
+
+    { title: 'Ginger'
+    , contact: 'Tobias Dammers'
+    , skillLevel: 'beginner'
+    , skillLevelTo: 'expert'
+    , homepage: 'https://ginger.tobiasdammers.nl/'
+    , children: (
+        'Jinja2-style HTML template engine'
+      )
+    },
+    
+
+    { title: 'Secure Haskell Programming with LiquidHaskell'
+    , contact: 'Alexander Diemand'
+    , skillLevel: 'beginner'
+    , skillLevelTo: 'expert'
+    , homepage: 'https://github.com/CodiePP/'
+    , children: (
+        "Let's dig into Haskell code (libraries, apps or yours) and have a look at how we can prove termination and correct behaviour with LiquidHaskell. Beyound 'head', there are a lot of pitfalls. A vivid discussion and hands-on coding is envisaged."
+      )
+    },
+    
+
+    { title: 'IHaskell'
+    , contact: 'Vaibhav Sagar'
+    , skillLevel: 'beginner'
+    , skillLevelTo: 'expert'
+    , homepage: 'https://github.com/gibiansky/IHaskell'
+    , children: (
+        'A Haskell kernel for Jupyter notebooks '
+      )
+    },
+    
+
+    { title: 'Cabal'
+    , contact: 'Mikhail Glushenkov'
+    , skillLevel: 'beginner'
+    , skillLevelTo: 'expert'
+    , homepage: 'https://www.haskell.org/cabal/'
+    , children: (
+        'Common Architecture for Building Applications and Libraries'
+      )
+    },
+    
+
+    { title: 'Rome'
+    , contact: 'Tommaso Piazza'
+    , skillLevel: 'beginner'
+    , skillLevelTo: 'expert'
+    , homepage: 'https://github.com/blender/Rome'
+    , children: (
+        'Binary dependency cache specialized for macOS/tvOS/watchOS/iOS'
+      )
+    },
+    
+
+    { title: 'Nomyx'
+    , contact: 'Corentin'
+    , skillLevel: 'beginner'
+    , skillLevelTo: 'expert'
+    , homepage: 'http://www.nomyx.net'
+    , children: (
+        'The game in which you can change the rules!'
+      )
+    },
+    
+
+    { title: 'Enzo Haussecker'
+    , contact: 'Enzo Haussecker'
+    , skillLevel: 'expert'
+    , skillLevelTo: 'expert'
+    , homepage: 'https://dfinity.org'
+    , children: (
+        'We have developed a cryptographic protocol that allows a network of computers to reach a consensus on a stream of random values. A  probabilistic mechanism for leader ranking is applied to these random values, which drives the production of blocks for a public blockchain.'
+      )
+    },
+    
+
+    { title: 'stackage2nix'
+    , contact: 'Dmitry Bushev'
+    , skillLevel: 'beginner'
+    , skillLevelTo: 'beginner'
+    , homepage: 'https://github.com/typeable/stackage2nix'
+    , children: (
+        'Generate Nix build instructions from a Stack file'
+      )
+    },
+    
+
+    { title: 'life-sync'
+    , contact: 'Dmitrii Kovanikov'
+    , skillLevel: 'advanced'
+    , skillLevelTo: 'advanced'
+    , homepage: 'https://github.com/ChShersh/life-sync'
+    , children: (
+        'CLI tool which helps you to synchronize dotfiles repositories'
+      )
+    },
+    
+
+    { title: 'Haskell Project Project'
+    , contact: 'Matt Parsons'
+    , skillLevel: 'beginner'
+    , skillLevelTo: 'beginner'
+    , homepage: ''
+    , children: (
+        'Are you curious about doing Haskell, but not sure where to start? This is a Haskell project that is designed to connect beginners, mentors, and ideas.'
+      )
+    },
+    
+
+    { title: 'Quid2'
+    , contact: ' Pasqualino Titto Assini'
+    , skillLevel: 'beginner'
+    , skillLevelTo: 'expert'
+    , homepage: 'http://quid2.org'
+    , children: (
+        'Open, evolvable, consistent and efficient distributed systems'
+      )
+    },
+    
+
+    { title: 'News Engine '
+    , contact: 'Vidas Pleta'
+    , skillLevel: 'beginner'
+    , skillLevelTo: 'beginner'
+    , homepage: ''
+    , children: (
+        'Self driving news engine that would help to personalize user content.'
+      )
+    },
+    
+
+    { title: 'Basic'
+    , contact: 'Nikola Henezi'
+    , skillLevel: 'beginner'
+    , skillLevelTo: 'expert'
+    , homepage: 'https://gitlab.com/haskell-hr/basic'
+    , children: (
+        'Database first database library with focus on: type safety, ease of use, flexibility and user friendly error messages'
+      )
+    },
+    
+
+    { title: 'Basic'
+    , contact: 'Luka Horvat'
+    , skillLevel: 'advanced'
+    , skillLevelTo: 'advanced'
+    , homepage: ''
+    , children: (
+        'Database first database library with focus on: type safety, ease of use, flexibility and user friendly error messages'
+      )
+    },
+    
+
+    { title: 'Differential Equation Solvers'
+    , contact: 'Dominic Steinitz'
+    , skillLevel: 'advanced'
+    , skillLevelTo: 'advanced'
+    , homepage: 'https://github.com/qnikst/numeric-ode'
+    , children: (
+        'Small project for different ODE solvers for haskell, in particular symplectic solvers.'
+      )
+    },
+    
+
+    { title: 'GRIN'
+    , contact: 'Csaba Hruska'
+    , skillLevel: 'advanced'
+    , skillLevelTo: 'advanced'
+    , homepage: 'https://github.com/andorp/grin'
+    , children: (
+        'The name GRIN is short for Graph Reduction Intermediate Notation, and it is an intermediate language for graph reduction.  It can be used as a Haskell backend replacing STG.'
+      )
+    },
+    
+
+    { title: 'Purely functional data structures'
+    , contact: 'Juan Carlos Saenz-Carrasco'
+    , skillLevel: 'beginner'
+    , skillLevelTo: 'advanced'
+    , homepage: ''
+    , children: (
+        "Since Okasaki's book and PhD thesis, few efforts have been done towards the design and analysis of purely data structures, specifically the field of dynamic environment"
+      )
+    },
+    
+
+    { title: 'Haskell-wasm'
+    , contact: 'Anthony Sheldon'
+    , skillLevel: 'beginner'
+    , skillLevelTo: 'advanced'
+    , homepage: 'https://github.com/haskell-wasm/wasm'
+    , children: (
+        'Haskell compiler infastructure for WebAssembly'
+      )
+    },
+    
+
+    { title: 'Quasar-lite'
+    , contact: 'Pawel Szulc'
+    , skillLevel: 'beginner'
+    , skillLevelTo: 'beginner'
+    , homepage: ''
+    , children: (
+        "It's an abstraction for a File System build with Free. Attendees will write interpreters for storages of their choice (like HDFS, Elasticsearch, PostgreSQL). At the end of hackhaton we will get a nice website that allows you to connect (mount) to specific storage, list, write and read its content"
+      )
+    },
+    
+
+    { title: 'Transity'
+    , contact: 'Adrian Sieber'
+    , skillLevel: 'beginner'
+    , skillLevelTo: 'expert'
+    , homepage: ''
+    , children: (
+        'The plain text accounting tool of the future'
+      )
+    },
+    
+
+    { title: 'Building music types'
+    , contact: 'Drew Krause'
+    , skillLevel: 'advanced'
+    , skillLevelTo: 'advanced'
+    , homepage: ''
+    , children: (
+        'Modeling compositional forms (pitch &/or rhythm) using algebraic data types'
+      )
+    },
+    
+
+    { title: 'sparse-linear-algebra'
+    , contact: 'Marco Zocca'
+    , skillLevel: 'beginner'
+    , skillLevelTo: 'expert'
+    , homepage: 'https://github.com/ocramz/sparse-linear-algebra'
+    , children: (
+        'A native linear algebra library with multiple backends'
+      )
+    },
+    
+
+    { title: 'pandoc'
+    , contact: 'Mauro Bieg'
+    , skillLevel: 'beginner'
+    , skillLevelTo: 'beginner'
+    , homepage: 'http://pandoc.org'
+    , children: (
+        ''
+      )
+    },
+    
+
+    { title: 'butler'
+    , contact: 'Nicolas Mattia'
+    , skillLevel: 'advanced'
+    , skillLevelTo: 'advanced'
+    , homepage: 'https://github.com/nmattia/butler'
+    , children: (
+        'just-add-water session types for safe and easy protocols and state machines'
+      )
+    },
+    
+
+    { title: 'Motor'
+    , contact: 'Oskar Wickström'
+    , skillLevel: 'advanced'
+    , skillLevelTo: 'expert'
+    , homepage: 'https://github.com/owickstrom/motor'
+    , children: (
+        "Motor is an experimental Haskell library for building finite-state machines with type-safe transitions and effects. It draws inspiration from the Idris ST library. I'd be interested in working with others on this, exploring the design space further."
+      )
+    },
+    
+
+    { title: 'vindinium-rage'
+    , contact: 'Sergey Mironov'
+    , skillLevel: 'advanced'
+    , skillLevelTo: 'advanced'
+    , homepage: 'https://github.com/grwlf/vindinium-rage'
+    , children: (
+        'Game agent for vindinium.org on-line AI competition'
+      )
+    },
+    
+
+    { title: 'Debug'
+    , contact: 'Pepe Iborra'
+    , skillLevel: 'beginner'
+    , skillLevelTo: 'advanced'
+    , homepage: 'http://github.com/ndmitchell/debug'
+    , children: (
+        'A debugging toolkit for Haskell'
+      )
+    },
+    
+
+    { title: 'easytensor'
+    , contact: 'Artem Chirkin'
+    , skillLevel: 'beginner'
+    , skillLevelTo: 'expert'
+    , homepage: ''
+    , children: (
+        'Strongly-typed multidimensional numerical data and operations'
+      )
+    },
+    
+
+    { title: 'Refract'
+    , contact: 'Philip Kamenarsky'
+    , skillLevel: 'advanced'
+    , skillLevelTo: 'advanced'
+    , homepage: 'https://github.com/pkamenarsky/purescript-refract'
+    , children: (
+        'Optical Purescript UI library based on React and the Elm architecture, but without the boilerplate.'
+      )
+    },
+    
+
+    { title: 'Haskell CodingBat'
+    , contact: 'Pawel Kruszewski'
+    , skillLevel: 'beginner'
+    , skillLevelTo: 'beginner'
+    , homepage: ''
+    , children: (
+        'CodingBat like website for exercising Haskell.'
+      )
+    },
+    
+
+    { title: 'Flare Timing'
+    , contact: 'Phil de Joux'
+    , skillLevel: 'beginner'
+    , skillLevelTo: 'beginner'
+    , homepage: 'https://github.com/BlockScope/flare-timing'
+    , children: (
+        'Scoring for Free Flight Competition'
+      )
+    },
+    
+
+    { title: 'Compiler Development'
+    , contact: 'Stephen Diehl'
+    , skillLevel: 'expert'
+    , skillLevelTo: 'expert'
+    , homepage: 'https://github.com/llvm-hs'
+    , children: (
+        'We will informally hack on various tooling on llvm-hs toolchain and related projects.'
+      )
+    },
+    
+
+    { title: 'Dhall'
+    , contact: 'Gabriel Gonzalez'
+    , skillLevel: 'advanced'
+    , skillLevelTo: 'advanced'
+    , homepage: 'http://dhall-lang.org'
+    , children: (
+        'Non-Turing-complete configuration language'
+      )
+    },
+    
+
+    { title: 'Distributed Algorithms Framework'
+    , contact: 'Jeremy Barisch-Rooney'
+    , skillLevel: 'beginner'
+    , skillLevelTo: 'beginner'
+    , homepage: 'https://github.com/barischrooneyj/disco/edit/master/README.org'
+    , children: (
+        "It's all in the homepage :)"
+      )
+    },
+    
 ];
 
 const Star = () => (<div className={styles.star}>{starIcon}</div>);
