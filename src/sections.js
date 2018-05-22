@@ -162,13 +162,40 @@ export const Beginners = () => (
         <img className={styles.beginnerCourseAvatar} src={require('../static/speakers/julie.jpg')} alt='Julie Moronuki' />
         <p>
             <a href="https://twitter.com/argumatronic">Julie Moronuki</a>, the author of both <a href="http://haskellbook.com/">Haskell Programming from first principles</a> and <a href="https://joyofhaskell.com/">The Joy of Haskell</a>, has kindly agreed to teach a beginners course for people who are just getting started with Haskell.
+            This beginner track will run on Friday and Saturday afternoon and will
+            not conflict with any keynotes.
         </p>
         <p>
-            More details on this (free, like the rest of ZuriHac!) course will be announced.  We hope that this will make the event even more attractive to beginners than last year!
+            In case you are interested in the beginners track, we kindly ask you to
+            fill in <a href="https://goo.gl/forms/loutz1YC7NVTfsGI2">this very short poll</a> so we have a better idea of how many people
+            will attend the track and what the level of the audience is.
         </p>
    </div>
 );
 
+export const GHCDevOps = () => (
+    <div className={styles.container}>
+        <a id='ghcdevops' />
+        <h1>GHC DevOps track</h1>
+        <p>
+            It's hard to overstate how important GHC is to the Haskell
+            ecosystem.  That's why we are extremely proud that we will have a
+            special GHC DevOps track at ZuriHac 2018. Some GHC contributors will
+            be present to help you find your way around the projects, and there
+            will be hacking sessions to improve the tooling in particular.
+        </p>
+
+        <img className={styles.beginnerCourseAvatar} src={require('../static/speakers/manuel-chakravarty.jpg')} alt='Manuel Chakravarty' />
+        <p>
+            Long-time GHC contributor <a href="https://twitter.com/TacticalGrace">Manuel Chakravarty</a> will be present, and we'll have a few talks about GHC internals.
+        </p>
+        <p>
+            If you are interested, then please consider filling out
+            <a href="https://goo.gl/forms/1y6vnwuzWk1v86nB2">this poll</a> to
+            help the track organizers prepare.
+        </p>
+   </div>
+);
 export const Venue = () => (
     <div className={styles.container}>
         <a id='venue' />
