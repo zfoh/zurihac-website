@@ -27,7 +27,7 @@ const projects = [
     , contact: 'Dierk König'
     , skillLevel: 'beginner'
     , skillLevelTo: 'expert'
-    , homepage: 'http://frege-lang.org/'
+    , homepage: 'https://github.com/Frege/frege#readme'
     , children: (
         'Learn how to use Haskell in your Java projects, incl. type-safe interaction with Java libraries.'
       )
@@ -317,7 +317,7 @@ const projects = [
     , contact: 'Mauro Bieg'
     , skillLevel: 'beginner'
     , skillLevelTo: 'beginner'
-    , homepage: 'http://pandoc.org'
+    , homepage: 'https://pandoc.org'
     , children: (
         ''
       )
@@ -361,7 +361,7 @@ const projects = [
     , contact: 'Pepe Iborra'
     , skillLevel: 'beginner'
     , skillLevelTo: 'advanced'
-    , homepage: 'http://github.com/ndmitchell/debug'
+    , homepage: 'https://github.com/ndmitchell/debug'
     , children: (
         'A debugging toolkit for Haskell'
       )
@@ -427,7 +427,7 @@ const projects = [
     , contact: 'Gabriel Gonzalez'
     , skillLevel: 'advanced'
     , skillLevelTo: 'advanced'
-    , homepage: 'http://dhall-lang.org'
+    , homepage: 'https://dhall-lang.org'
     , children: (
         'Non-Turing-complete configuration language'
       )
@@ -438,7 +438,7 @@ const projects = [
     , contact: 'Jeremy Barisch-Rooney'
     , skillLevel: 'beginner'
     , skillLevelTo: 'beginner'
-    , homepage: 'https://github.com/barischrooneyj/disco/edit/master/README.org'
+    , homepage: 'https://github.com/barischrooneyj/disco#readme'
     , children: (
         "It's all in the homepage :)"
       )
