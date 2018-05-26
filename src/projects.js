@@ -23,13 +23,13 @@ const projects = [
         'opencv is a Haskell library providing a binding to the OpenCV-3.x C++ library. It binds directly with the C++ API using the inline-c Haskell library.'
       )
     },
-    { title: 'Frege - a Haskell for Java Programmers'
+    { title: 'Frege'
     , contact: 'Dierk König'
     , skillLevel: 'beginner'
     , skillLevelTo: 'expert'
     , homepage: 'https://github.com/Frege/frege#readme'
     , children: (
-        'Learn how to use Haskell in your Java projects, incl. type-safe interaction with Java libraries.'
+        'Learn how to use Frege (a Haskell to JVM compiler) in your Java projects, incl. type-safe interaction with Java libraries.'
       )
     },
     { title: 'arithmoi'
@@ -88,7 +88,7 @@ const projects = [
     , skillLevelTo: 'expert'
     , homepage: 'https://github.com/CodiePP/'
     , children: (
-        "Let's dig into Haskell code (libraries, apps or yours) and have a look at how we can prove termination and correct behaviour with LiquidHaskell. Beyound 'head', there are a lot of pitfalls. A vivid discussion and hands-on coding is envisaged."
+        "Let's dig into Haskell code (libraries, apps or yours) and have a look at how we can prove termination and correct behaviour with LiquidHaskell. Beyond 'head', there are a lot of pitfalls. A vivid discussion and hands-on coding is envisaged."
       )
     },
 
@@ -136,7 +136,8 @@ const projects = [
       )
     },
 
-    { title: 'Enzo Haussecker'
+
+    { title: 'DFINITY'
     , contact: 'Enzo Haussecker'
     , skillLevel: 'expert'
     , skillLevelTo: 'expert'
@@ -197,13 +198,13 @@ const projects = [
     , skillLevelTo: 'beginner'
     , homepage: ''
     , children: (
-        'Self driving news engine that would help to personalize user content.'
+        'Self-driving news engine that would help to personalize user content.'
       )
     },
 
 
     { title: 'Basic'
-    , contact: 'Nikola Henezi'
+    , contact: 'Luka Horvat and Nikola Henezi'
     , skillLevel: 'beginner'
     , skillLevelTo: 'expert'
     , homepage: 'https://gitlab.com/haskell-hr/basic'
@@ -211,18 +212,7 @@ const projects = [
         'Database first database library with focus on: type safety, ease of use, flexibility and user friendly error messages'
       )
     },
-    
 
-    { title: 'Basic'
-    , contact: 'Luka Horvat'
-    , skillLevel: 'advanced'
-    , skillLevelTo: 'advanced'
-    , homepage: ''
-    , children: (
-        'Database first database library with focus on: type safety, ease of use, flexibility and user friendly error messages'
-      )
-    },
-    
 
     { title: 'Differential Equation Solvers'
     , contact: 'Dominic Steinitz'
@@ -255,9 +245,9 @@ const projects = [
         "Since Okasaki's book and PhD thesis, few efforts have been done towards the design and analysis of purely data structures, specifically the field of dynamic environment"
       )
     },
-    
 
-    { title: 'Haskell-wasm'
+
+    { title: 'haskell-wasm'
     , contact: 'Anthony Sheldon'
     , skillLevel: 'beginner'
     , skillLevelTo: 'advanced'
@@ -318,7 +308,7 @@ const projects = [
     , skillLevelTo: 'beginner'
     , homepage: 'https://pandoc.org'
     , children: (
-        ''
+        'Pandoc is a free and open-source software document converter written in Haskell'
       )
     },
 
