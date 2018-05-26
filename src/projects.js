@@ -5,6 +5,15 @@ import {starIcon, starBorderIcon} from './icons.js';
 
 
 const projects = [
+    { title: 'eqsat'
+    , contact: 'Remy Goldschmidt'
+    , skillLevel: 'advanced'
+    , skillLevelTo: 'expert'
+    , homepage: 'https://github.com/taktoa/eqsat'
+    , children: (
+        'eqsat is a Haskell library for equality saturation-based superoptimization of arbitrary referentially-transparent languages, with a focus on performance. Equality saturation is a method of optimization based on automated theorem proving (congruence closure) in propositional equational logic.'
+      )
+    },
     { title: 'haskell-opencv'
     , contact: 'Bas van Dijk'
     , skillLevel: 'advanced'
