@@ -5,6 +5,15 @@ import {starIcon, starBorderIcon} from './icons.js';
 
 
 const projects = [
+    { title: 'Haskell SpriteKit'
+    , contact: 'Manuel Chakravarty'
+    , skillLevel: 'advanced'
+    , skillLevelTo: 'expert'
+    , homepage: 'https://github.com/mchakravarty/HaskellSpriteKit/'
+    , children: (
+        'Haskell SpriteKit is a Haskell binding for the SpriteKit framework available on macOS/iOS/tvOS, encompassing an animation framework, physics engine, and game engine. It not only makes a state-of-the-art 2D game engine accessible from Haskell, but it does so in a manner that the client code is purely functional without the need to be embedded in a state monad or to use advanced structuring mechanisms, such as FRP. It is indeed suitable for use by Haskell beginners. The binding covers a lot of interesting functionality, but it is still rather incomplete and some help would be much appreciated.'
+      )
+    },
     { title: 'eqsat'
     , contact: 'Remy Goldschmidt'
     , skillLevel: 'advanced'
