@@ -402,8 +402,8 @@ const projects = [
 
 
     { title: 'Compiler Development'
-    , contact: 'Stephen Diehl'
-    , skillLevel: 'expert'
+    , contact: 'Stephen Diehl, Moritz Kiefer'
+    , skillLevel: 'advanced'
     , skillLevelTo: 'expert'
     , homepage: 'https://github.com/llvm-hs'
     , children: (
