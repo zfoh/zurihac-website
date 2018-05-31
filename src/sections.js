@@ -337,7 +337,6 @@ export const WhoAreWe = () => (
             <li><strong>T-Shirts</strong>: Carl Baatz</li>
             <li><strong>Sponsoring</strong>: Arvin Moezzi, Ivan Kristo</li>
             <li><strong>Statistics</strong>: Gleb Peregud</li>
-            <li><strong>Scala Community Liaison</strong>: Mario Pastorelli</li>
             <li><strong>HSR Location and Facilities</strong>: Ingrid Vettiger, Farhad Mehta</li>
             <li><strong>Food and Beverages</strong>: Niklas Hambüchen</li>
         </ul>
