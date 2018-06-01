@@ -302,7 +302,8 @@ export const Cpp = () => (
 
         <div>
             <p>
-                The HSR is also hosting the spring session of the C++ standardisation committee from 04.06.2018 - 09.06.2018. In order to promote the cross-fertilisation of ideas between the two communities, the attendees of the C++ standardisation committee meeting will be welcome to attend the ZuriHac2018 keynote speeches and the Pizza dinner on Friday 08.06.2017. In turn, ZuriHac2018 attendees are welcome to take a peek at the meetings of the C++ standardisation committee. For more information on the C++ standardisation committee meeting, please refer to <a href="http://open-std.org/JTC1/SC22/WG21/docs/papers/2017/n4673.pdf">this link</a>. In case you plan on attending a session, please send a short email to Peter Sommerlad (peter.sommerlad at hsr.ch).
+                The HSR is also hosting the spring session of the C++ standardisation committee from 04.06.2018 - 09.06.2018. In order to promote the cross-fertilisation of ideas between the two communities, the attendees of the C++ standardisation committee meeting will be welcome to attend the ZuriHac2018 keynote speeches.
+                {/* and the Pizza dinner on Friday 08.06.2017 */} In turn, ZuriHac2018 attendees are welcome to take a peek at the meetings of the C++ standardisation committee. For more information on the C++ standardisation committee meeting, please refer to <a href="http://open-std.org/JTC1/SC22/WG21/docs/papers/2017/n4673.pdf">this link</a>. In case you plan on attending a session, please send a short email to Peter Sommerlad (peter.sommerlad at hsr.ch).
             </p>
         </div>
     </div>
@@ -315,7 +316,7 @@ export const Food = () => (
 
         <div>
             <p>
-                Lunch coupons are sold during registration. A coupon costs CHF 30 and includes lunch for three days. Vegetarian options are available during every lunch. Of course, you are always free to go to nearby restaurants and/or supermarkets, like the past years.
+                Lunch coupons are sold during registration. A coupon costs CHF 36 and includes lunch for three days. Vegetarian options are available during every lunch. Of course, you are always free to go to nearby restaurants and/or supermarkets, like the past years.
             </p>
 
             <p>The exact menu will be announced here before the event.</p>
@@ -329,11 +330,11 @@ export const Food = () => (
             */}
 
             <p>
-                On Friday evening, a <a href="https://www.pizzamobil.ch/">mobile pizzeria</a> will visit the venue. Pizzas will cost around CHF 15.
+                On Friday evening, there is a bring-your-own meat BBQ. Meat (or vegetarian/vegan alternatives) can be obtained from nearby supermarkets.  <a href="https://goo.gl/maps/yjpBAs2BTNx">Migros</a> is nearby and has a decent selection, but it does not sell alcoholic beverages.
             </p>
 
             <p>
-                On Saturday evening, there is a bring-your-own meat BBQ. Meat (or vegetarian/vegan alternatives) can be obtained from nearby supermarkets.
+                We are working with <a href="https://www.sudelnuppe.ch/">SudelNuppe</a> to provide an on-site Ramen (Japanese Noodle Soup) dinner option for Saturday. The prospective menu can be <a href="static/ramen-menu.png">viewed here</a>.
             </p>
         </div>
     </div>
