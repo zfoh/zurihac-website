@@ -231,6 +231,7 @@ export const Venue = () => (
         <p>
             You can take the S7 or S15 to get from the Zurich main station to Rapperswil.
             These trains run regularly in 30 minute and 60 minute intervals, respectively.
+            Google maps works well for directions if you use the "public transport" tab.
         </p>
 
         <p>
@@ -239,11 +240,28 @@ export const Venue = () => (
             minutes.
         </p>
 
+        <h3 id="train-tickets">Train tickets</h3>
+
         <p>
-            <strong>Tickets:</strong> If you stay in Zurich city, get a day pass for <b>all zones</b>. It's good
+            If you stay in Zurich city, the easiest option is to get a 24 hour pass for <b>all zones</b>. It's good
             for all public transportation around Zurich, up to Rapperswil. A one-way ticket costs 17.20CHF,
-            the day pass 34.40CHF. If you want to stay closer to the venue and save on transportation, please
+            the 24 hour pass 34.40CHF. If you want to stay closer to the venue and save on transportation, please
             see the section further below with accomodation suggestions around Rapperswil.
+        </p>
+
+        <p>
+            Please note that the 24 hour pass is literally a 24 hour pass and can be used over multiple days: e.g. if you buy one on the first
+            day of the Hackathon at e.g. 9.00, you can still use it to take the train at 8.00 the next day. This way, it is possible to buy
+            only two tickets for the three-day conference.
+        </p>
+
+        <p>
+            A lightly cheaper alternative to the 24 hour pass is the <a href="https://www.zvv.ch/zvv/en/travelcards-and-tickets/tickets/9-oclock-daypass.html">9 O&#39;Clock day pass</a> which works more like a regular day pass.  However, this requires you to take the train to Rapperswil after 09:00 on Friday, as described on the website.
+        </p>
+
+        <p>
+            You can buy tickets from the SBB or ZVV vending machines, which have a button to use them in English rather than German on the home screen.
+            Alternatively, you can use the <a target="_blank" href="https://www.zvv.ch/zvv/en/service/apps/ticket-app.html">ZVV ticket app</a> on <a href="https://play.google.com/store/apps/details?id=mnc.android.zvvticket">Android</a> or <a href="https://itunes.apple.com/ch/app/zvv-tickets/id1033896474?mt=8">iOS</a>.
         </p>
 
         <h2>Getting around</h2>

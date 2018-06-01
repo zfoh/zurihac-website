@@ -33,15 +33,28 @@ h1 {
 }
 
 h2 {
-  margin: 3.5em auto .1em;
   text-align: center;
   font-size: 22px;
+  margin: 3.5em auto .1em;
 
   @media (min-width: 840px) {
     font-size: 26px;
   }
   @media (min-width: 1280px) {
     font-size: 30px;
+  }
+}
+
+h3 {
+  text-align: center;
+  font-size: 18px;
+  margin: 3.5em auto .1em;
+
+  @media (min-width: 840px) {
+    font-size: 22px;
+  }
+  @media (min-width: 1280px) {
+    font-size: 26px;
   }
 }
 
