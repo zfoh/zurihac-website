@@ -333,13 +333,13 @@ const projects = [
     },
 
 
-    { title: 'Motor'
+    { title: 'Haskell Documentation Improvements'
     , contact: 'Oskar Wickström'
-    , skillLevel: 'advanced'
+    , skillLevel: 'beginner'
     , skillLevelTo: 'expert'
-    , homepage: 'https://github.com/owickstrom/motor'
+    , homepage: ''
     , children: (
-        "Motor is an experimental Haskell library for building finite-state machines with type-safe transitions and effects. It draws inspiration from the Idris ST library. I'd be interested in working with others on this, exploring the design space further."
+        "Get together and improve documentation for central Haskell packages where we think it could be better — not only API references, but tutorials, how-tos/cookbooks, and full executable examples. Let's create some pull requests!"
       )
     },
 
