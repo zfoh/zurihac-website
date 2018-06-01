@@ -334,7 +334,7 @@ export const Food = () => (
             </p>
 
             <p>
-                We are working with <a href="https://www.sudelnuppe.ch/">SudelNuppe</a> to provide an on-site Ramen (Japanese Noodle Soup) dinner option for Saturday. The prospective menu can be <a href="static/ramen-menu.png">viewed here</a>.
+                We are working with <a href="https://www.sudelnuppe.ch/">SudelNuppe</a> to provide an on-site Ramen (Japanese Noodle Soup) dinner option for Saturday. The prospective menu can be <a href={require('../static/ramen-menu.png')}>viewed here</a>.
             </p>
         </div>
     </div>
