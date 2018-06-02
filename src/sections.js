@@ -211,11 +211,6 @@ export const Venue = () => (
             <img className={styles.venueBannerImage} src={require('../static/Header_Campus_01.jpg')} alt='HSR campus' />
         </p>
 
-        <p>
-            We'll have plenty of space available to us: One large auditorium with enough seats for all the participants,
-            10 separate rooms for up to 28 people each, and a large open space.
-        </p>
-
         <div className={styles.venueAddress}>
             HSR Hochschule für Technik Rapperswil<br/>
             Oberseestrasse 10<br/>
@@ -223,7 +218,25 @@ export const Venue = () => (
         </div>
 
         <p>
-            The venue is located right next to the lake, and weather is predicted to be superb (25°C, 77℉), so feel free to bring your swimming gear.
+            The Hackathon mainly takes place in two buildings: Building 1 and Building 4.  For a detailed overview,
+            please use <a href={require('../static/rooms.pdf')}>this PDF map of all rooms</a>.  The ones highlighted
+            in green are the areas available for ZuriHac.
+        </p>
+
+        <ul>
+            <li>
+                <strong>Building 1</strong> has the welcome area (where you sign in) on the ground floor, a
+                large open space for hacking on the first floor, and 13 classrooms that are available for projects
+                on the second floor.
+            </li>
+            <li>
+                <strong>Building 4</strong> has the mensa (for lunch) on the ground floor, and on the second floor
+                there is the aula (where the keynotes happen) and a large classroom (4.113) for the beginner track.
+            </li>
+        </ul>
+
+        <p>
+            The venue is located right next to the lake, and weather is predicted to be superb (25°C, 77℉), so feel free to bring your swimming gear!
         </p>
 
         <h2>Getting there</h2>
