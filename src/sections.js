@@ -235,6 +235,8 @@ export const Venue = () => (
             </li>
         </ul>
 
+        Please use <a href="https://docs.google.com/document/d/1pVqY8tMltv3z7fimEPPTbiSUu2-cBtS8LYq4j1Oj9dk/edit?usp=sharing">this document</a> for per-project Room Allocation.
+
         <p>
             The venue is located right next to the lake, and weather is predicted to be superb (25°C, 77℉), so feel free to bring your swimming gear!
         </p>
