@@ -442,6 +442,17 @@ const projects = [
       )
     },
 
+
+    { title: 'Media Goggler'
+    , contact: 'Jan van Brügge'
+    , skillLevel: 'beginner'
+    , skillLevelTo: 'advanced'
+    , homepage: 'https://github.com/jvanbruegge/media-goggler#readme'
+    , children: (
+        "A media server (similar to Plex/Emby) written in Haskell. Will support more than just movies/series in the future. Very much work in progress."
+      )
+    },
+
 ];
 
 const Star = () => (<div className={styles.star}>{starIcon}</div>);
