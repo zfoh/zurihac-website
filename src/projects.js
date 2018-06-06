@@ -282,9 +282,9 @@ const projects = [
     , contact: 'Adrian Sieber'
     , skillLevel: 'beginner'
     , skillLevelTo: 'expert'
-    , homepage: ''
+    , homepage: 'https://github.com/feramhq/transity'
     , children: (
-        'The plain text accounting tool of the future'
+        'The plain text accounting tool of the future. Written in PureScript.'
       )
     },
 
