@@ -21,7 +21,7 @@ export const About = () => (
             hosted at the <a href='https://www.hsr.ch'>HSR Hochschule für
             Technik Rapperswil</a>. This is the seventh Haskell Hackathon
             organized in Zürich and and the second one which is hosted at the
-            HSR. A fantastic venue located right at lake Zürich and providing
+            HSR. This fantastic venue is located right at lake Zürich and provides
             space for 400 participants.
         </p>
 
@@ -331,7 +331,7 @@ export const Food = () => (
 
         <div>
             <p>
-                Lunch coupons are sold during registration. A coupon costs CHF 36 and includes lunch for three days. Vegetarian options are available during every lunch. Of course, you are always free to go to nearby restaurants and/or supermarkets, like the past years.
+                Lunch coupons are sold during registration. A coupon costs CHF 35 and includes lunch for three days. Vegetarian options are available during every lunch. Of course, you are always free to go to nearby restaurants and/or supermarkets, like the past years.
             </p>
 
             <p>The exact menu will be announced here before the event.</p>
