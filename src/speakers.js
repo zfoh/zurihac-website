@@ -50,7 +50,7 @@ export default () => (
             </Speaker>
 
             <Speaker author="Edward Kmett" img={require('../static/speakers/ekmett.jpg')} github='ekmett' twitter='kmett'>
-                <TimeAndPlace><strong>Topic TBA</strong>: Sunday, 10:00</TimeAndPlace>
+                <TimeAndPlace><strong>Combinators Revisited</strong>: Sunday, 10:00</TimeAndPlace>
                 Prolific Haskell programmer, mathematician, lapsed graphics guru and demo scener, defense contractor, financial toolsmith,
                 author of the widely-known <a href="https://github.com/ekmett/lens/">lens</a> library.
             </Speaker>
