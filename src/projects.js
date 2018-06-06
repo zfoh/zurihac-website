@@ -453,6 +453,17 @@ const projects = [
       )
     },
 
+    
+    { title: 'Game Programming for all'
+    , contact: 'Christina Zeller'
+    , skillLevel: 'beginner'
+    , skillLevelTo: 'expert'
+    , homepage: 'https://github.com/keera-studios/haskell-game-programming'
+    , children: (
+        "Dive into game programming with Keera Studios. We'll guide you to add features to existing open source games using SDL2, Functional Reactive Programming and Nintendo wiimote. We'll also show you how to create your own games, starting with a template that works for all kind of games, from simple board games to advanced games with physics and collisions."
+      )
+    },
+
 ];
 
 const Star = () => (<div className={styles.star}>{starIcon}</div>);
