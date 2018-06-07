@@ -322,17 +322,6 @@ const projects = [
     },
 
 
-    { title: 'butler'
-    , contact: 'Nicolas Mattia'
-    , skillLevel: 'advanced'
-    , skillLevelTo: 'advanced'
-    , homepage: 'https://github.com/nmattia/butler'
-    , children: (
-        'just-add-water session types for safe and easy protocols and state machines'
-      )
-    },
-
-
     { title: 'Haskell Documentation Improvements'
     , contact: 'Oskar Wickström'
     , skillLevel: 'beginner'
