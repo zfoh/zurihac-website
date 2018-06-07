@@ -194,6 +194,14 @@ will be hacking sessions to improve the tooling in particular.
         <p>
             If you are interested, then please consider filling out <a href="https://goo.gl/forms/1y6vnwuzWk1v86nB2">this poll</a> to help the track organizers prepare.
         </p>
+        <p>
+            The GHC DevOps track is located in room <strong>1.271</strong>. Current talk schedule:
+        </p>
+        <ul>
+            <li>Friday 15:00: Niklas Hambüchen</li>
+            <li>Friday 16:00: Andreas Herrmann (Newcomers Tutorial)</li>
+            <li>Saturday 14:30: Manuel Chakravarty</li>
+        </ul>
    </div>
 );
 
