@@ -344,13 +344,11 @@ export const Food = () => (
 
             <p>The exact menu will be announced here before the event.</p>
 
-            {/*
             <ul>
-                <li><strong>Friday:</strong> Sliced Veal with Rösti</li>
-                <li><strong>Saturday:</strong> Pasta Italian Style</li>
-                <li><strong>Sunday:</strong> Sandwich</li>
+                <li><strong>Friday:</strong> Sliced Veal with Rösti or Vegetable Lasagna gratinated with cheese</li>
+                <li><strong>Saturday:</strong> Pasta Italian Style (Bolognaise, Pesto or Mushroom sauce)</li>
+                <li><strong>Sunday:</strong> Roasted Chicken Breast with herb sauce, rice & carrots or Quorn Curry with fruit and rice</li>
             </ul>
-            */}
 
             <p>
                 On Friday evening, there is a bring-your-own meat BBQ. Meat (or vegetarian/vegan alternatives) can be obtained from nearby supermarkets.  <a href="https://goo.gl/maps/yjpBAs2BTNx">Migros</a> is nearby and has a decent selection, but it does not sell alcoholic beverages.
