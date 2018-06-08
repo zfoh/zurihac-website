@@ -453,6 +453,17 @@ const projects = [
       )
     },
 
+    
+    { title: 'Baxter Text'
+    , contact: 'Robin Kay'
+    , skillLevel: 'advanced'
+    , skillLevelTo: 'advanced'
+    , homepage: 'https://hub.darcs.net/komadori/baxter-text'
+    , children: (
+        "Cross-platform binding for laying out and rendering text using each platform's native text engine and fonts. Avoids the need to bundle FreeType and custom fonts with applications."
+      )
+    },
+    
 ];
 
 const Star = () => (<div className={styles.star}>{starIcon}</div>);
