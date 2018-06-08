@@ -61,7 +61,7 @@ export default () => (
             </Speaker>
 
             <Speaker author="Joachim Breitner" img={require('../static/speakers/joachim-breitner.jpg')} github='nomeata' twitter='nomeata'>
-                <TimeAndPlace><strong>Inspection Testing</strong>: Saturday, 13:30</TimeAndPlace>
+                <TimeAndPlace><strong>A promise checked is a promise kept: Inspection Testing</strong>: Saturday, 13:30</TimeAndPlace>
                 Post-doc researcher at the University of Pennsylvania and one of the core contributors to the Glasgow Haskell Compiler.  Author of <a href="http://incredible.pm/">The Incredible Proof Machine</a> and not afraid to try <a href="http://www.joachim-breitner.de/blog/717-Why_prove_programs_equivalent_when_your_compiler_can_do_that_for_you_">funky</a> <a href="http://www.joachim-breitner.de/blog/735-The_magic_%E2%80%9CJust_do_it%E2%80%9D_type_class">ideas</a>.
             </Speaker>
         </div>
