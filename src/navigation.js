@@ -13,6 +13,7 @@ export default () => (
                 }
                     <a className={styles.navItem} href='#speakers'>Speakers</a>
                     <a className={styles.navItem} href='#schedule'>Schedule</a>
+                    <a className={styles.navItem} href='#food'>Food</a>
                     <a className={styles.navItem} href='#projects'>Projects</a>
                     <a className={styles.navItem} href='#beginners'>Beginners</a>
                     <a className={styles.navItem} href='#ghcdevops'>GHC DevOps</a>

@@ -355,7 +355,12 @@ export const Food = () => (
             </p>
 
             <p>
-                We are working with <a href="https://www.sudelnuppe.ch/">SudelNuppe</a> to provide an on-site Ramen (Japanese Noodle Soup) dinner option for Saturday. The prospective menu can be <a href={require('../static/ramen-menu.png')}>viewed here</a>.
+                We are working with <a href="https://www.sudelnuppe.ch/">SudelNuppe</a> to provide an on-site Ramen (Japanese Noodle Soup) dinner option for Saturday. The prospective menu can be <a href={require('../static/ramen-menu.png')}>viewed here</a>. Coupons for this can be bought directly from the vendor on Saturday evening.
+            </p>
+
+            <h2>Coffee and refreshments</h2>
+            <p>
+                We have three coffee machines to serve <strong>free</strong> coffee during the event. These are located in the common hacking area in building 1 (first floor). <a href="https://www.redbull.com/ch-de/">RedBull</a> has also provided a fridge with 600 cans free of charge.
             </p>
         </div>
     </div>
