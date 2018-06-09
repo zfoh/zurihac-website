@@ -51,7 +51,7 @@ export default () => (
             All talks and keynotes take place in the <span className={styles.scheduleLegendAula}>aula (building 4)</span>.
             Lunch is served
             in the <span className={styles.scheduleLegendMensa}>mensa (building 4)</span>.
-            Pizza and BBQ will be consumed <span className={styles.scheduleLegendOutside}>outside (in front of building 1)</span>.
+            BBQ and Ramen will be consumed <span className={styles.scheduleLegendOutside}>outside (in front of building 1)</span>.
         </p>
 
         <section className={styles.schedule}>
